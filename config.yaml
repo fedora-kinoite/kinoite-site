@@ -1,0 +1,54 @@
+baseURL: https://kde.org/
+canonifyURLs: true
+defaultContentLanguage: en
+enableGitInfo: true
+enableRobotsTXT: true
+i18n:
+  content:
+  excludedKeys: changelog class color figure hero_image image images licenses link
+    logo major_version peertube release src url version version_text video youtube
+  genToOtherDir: true
+  langs: ast ca ca@valencia cs de es et eu fi fr gl hu it ko nl pt pt_BR ru sk sv
+    tr uk zh_CN
+  others:
+  - menu
+  - strings
+module:
+  imports:
+    - path: "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"
+    - path: "github.com/thednp/bootstrap.native"
+      mounts:
+        - source: "dist"
+          target: "assets/js/native"
+languages:
+  en:
+    contentDir: content/
+    languageCode: en
+    languageName: English
+    menu:
+      main:
+      - name: Develop
+        url: https://develop.kde.org
+        weight: 2
+      - name: Get Involved
+        url: https://community.kde.org/Get_Involved
+        weight: 3
+    weight: 1
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: tango
+outputs:
+  home:
+  - HTML
+  - RSS
+  section:
+  - HTML
+params:
+  images:
+  - /thumbnail.png
+  matomo: 1
+rssLimit: 4
+summaryLength: 15
