@@ -14,7 +14,7 @@ maintained by the [Fedora KDE Special Interest Group (SIG)](https://fedoraprojec
 and is the fruit of collaboration between the Fedora and KDE community. 
 
 The first step in contributing to Kinoite is to join us on our [Matrix channel](matrix.to/#/#fedora-kde:matrix.org)
-or IRC room #fedora-kde. Feel free to ask us any questions you may have.
+or IRC room [#fedora-kde](irc://irc.freenode.net/fedora-kde). Feel free to ask us any questions you may have.
 
 ## Get Involved in Fedora
 
