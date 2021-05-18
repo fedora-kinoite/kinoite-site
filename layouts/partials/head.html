@@ -38,7 +38,7 @@
   <link rel="apple-touch-icon" href="/aether/media/180x180.png">
   <link rel="shortcut icon" href="/aether/media/192x192.png">
 
-  {{ $style := resources.Get "sass/bulma.sass" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  {{ $style := resources.Get "sass/bulma.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   {{ range .Params.sassFiles }}
   {{ $style := resources.Get . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
