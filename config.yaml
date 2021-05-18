@@ -33,7 +33,7 @@ languages:
         url: https://develop.kde.org
         weight: 2
       - name: Get Involved
-        url: https://community.kde.org/Get_Involved
+        url: /get-involved
         weight: 3
     weight: 1
 markup:
