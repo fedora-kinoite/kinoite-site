@@ -1,0 +1,77 @@
+{{ define "main" }}
+<main id="home">
+  <section class="hero is-fullheight-with-navbar">
+    <div class="container px-3 has-text-centered is-flex-center-vertial-childs">
+      <h1 class="is-size-1">Fedora Kinoite</h1>
+      <h1 class="is-size-3">The Next Generation Operating System</h1>
+      <h2 class="is-size-5 mt-3 small-container">Surf the web, keep in touch with friends, manage files, enjoy music and video, and get productive at work without having to worry about breaking your system.</h2>
+      <div class="has-text-centered mt-4"><a href="" class="button is-primary">Download</a></div>
+    </div>
+    <div class="laptop-background">
+      <div class="laptop-with-overlay mt-2 mb-3">
+        <img class="laptop img-fluid mt-3" src="https://kde.org/reusable-assets/laptop.svg" alt="empty laptop with an overlay">
+        <div class="laptop-overlay">
+          <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.21.0/plasma-dark.webp" alt="Screenshot Plasma with Dolphin and system setting open" loading="lazy" width="1200" height="675">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h1 class="has-text-centered is-size-2 mb-5">Build on top of the best</h1>
+    <div class="components">
+      <a href="https://getfedora.org" class="product product-fedora">
+        <h2 class="is-size-2">Fedora</h2>
+        <h3 class="has-text-centered">Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.</h3>
+      </a>
+      <a href="https://kde.org/plasma-desktop" class="product product-plasma">
+        <svg class="plasma-logo" width="54" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+         <defs id="defs5455">
+          <linearGradient inkscape:collect="always" id="linearGradient4326">
+           <stop id="stop4328"/>
+           <stop offset="1" style="stop-opacity:0" id="stop4330"/>
+          </linearGradient>
+          <linearGradient inkscape:collect="always" xlink:href="#linearGradient4326" id="linearGradient4434" y1="502.798" x1="439.57144" y2="512.79803" x2="429.57144" gradientUnits="userSpaceOnUse"/>
+         </defs>
+         <metadata id="metadata5458"/>
+         <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -483.798)">
+          <path style="fill:#fff;fill-rule:evenodd" id="path4422" d="M 41 5 L 35 11 L 46 22 L 35 33 L 41 39 L 58 22 L 41 5 z " transform="matrix(1 0 0 1 384.57143 483.798)"/>
+          <rect width="6.250019" x="400.32141" y="489.79797" rx="3.12501" height="6.250019" style="fill:#fff" id="rect4119"/>
+          <flowRoot line-height="125%" style="font-size:32.500004;font-family:sans-serif" id="flowRoot4170">
+           <flowRegion id="flowRegion4172">
+            <rect width="87.75001" x="452.32144" y="489.79807" height="48.750004" id="rect4174"/>
+           </flowRegion>
+           <flowPara id="flowPara4176">Plasm</flowPara>
+          </flowRoot>
+          <rect width="9.00002" x="390.57141" y="509.2988" rx="4.499995" height="8.999991" style="fill:#fff" id="rect4308"/>
+          <rect width="12.999995" x="403.57144" y="528.79803" rx="6.499998" height="12.999995" style="fill:#fff" id="rect4312"/>
+          <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4434);opacity:0.9;fill-rule:evenodd" id="path4426" d="m 423.57143,512.798 6,6 7,-7 -6,-6 z"/>
+         </g>
+        </svg>
+        <h2 class="is-size-1">Plasma</h2>
+        <h3 class="">A modern and modular desktop build with love by the KDE Community</h3>
+       </a>
+      <a href="/applications" class="product product-applications">
+        <div class="description ">
+          <h2 class="is-size-3">Applications</h2>
+          <h3>Download hundreds of open-source applications thanks to Flatpak</h3>
+        </div>
+      </a>
+      <a href="https://rpm-ostree.readthedocs.io/en/latest/" class="product product-ostree">
+        <div class="description ">
+          <img src="https://avatars.githubusercontent.com/u/3730757?s=200&v=4" alt="">
+          <h2 class="is-size-3">rpm-ostree</h2>
+          <p class="">{{ i18n "ostree-description" }}</p>
+        </div>
+      </a>
+      <a href="https://rpm-ostree.readthedocs.io/en/latest/" class="product product-podman">
+        <div class="description ">
+          <img src="https://podman.io/images/podman.svg" alt="">
+          <h2 class="is-size-3">{{ i18n "podman" }}</h2>
+          <p class="">{{ i18n "podman-description" }}</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+{{ end }}

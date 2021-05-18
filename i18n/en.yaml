@@ -1,0 +1,13 @@
+ostree-description:
+  other: rpm-ostree is a hybrid image/package system. It combines libostree as a base immutable image format, and accepts installing RPM on both the client and server side, sharing code with the dnf project.
+podman-description:
+  other: Podman is a daemonless container engine for developing, managing, and running Open Container Initiative (OCI) containers and container images on your Linux System.
+podman:
+  other: Podman
+applications:
+  other: Applications
+
+footer.credit: |
+  © 2021 Fedora Kinoite.
+
+  A Fedora initiative.

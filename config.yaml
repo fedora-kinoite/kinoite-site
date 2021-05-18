@@ -15,11 +15,10 @@ i18n:
   - strings
 module:
   imports:
-    - path: "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"
-    - path: "github.com/thednp/bootstrap.native"
+    - path: "github.com/jgthms/bulma"
       mounts:
-        - source: "dist"
-          target: "assets/js/native"
+        - source: "sass"
+          target: "assets/sass/bulma"
 languages:
   en:
     contentDir: content/
@@ -27,6 +26,9 @@ languages:
     languageName: English
     menu:
       main:
+      - name: Download
+        url: https://develop.kde.org
+        weight: 1
       - name: Develop
         url: https://develop.kde.org
         weight: 2

@@ -1,0 +1,53 @@
+{{ define "main" }}
+  <main class="container" role="main">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+      {{.}}
+    {{ end }}
+    {{ if not .Params.nosubpage }}
+    <div class="posts-list">
+      {{ range .Paginator.Pages }}
+        <article class="mb-3">
+          <a href="{{ .Permalink }}">
+            <h2 class="post-title">{{ .Title }}</h2>
+
+            {{ if .Params.subtitle }}
+              <h3 class="post-subtitle">
+                {{ .Params.subtitle }}
+              </h3>
+            {{ end }}
+          </a>
+
+          <div class="post-entry">
+              {{ .Summary }}
+              <br />
+              <a href="{{ .Permalink }}" class="button learn-more">Learn more</a>
+          </div>
+
+          {{ if .Params.tags }}
+            <div class="blog-tags">
+              {{ range .Params.tags }}
+                <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+              {{ end }}
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+    {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+      <ul class="pager main-pager">
+        {{ if .Paginator.HasPrev }}
+          <li class="previous">
+            <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
+          </li>
+        {{ end }}
+        {{ if .Paginator.HasNext }}
+          <li class="next">
+            <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    {{ end }}
+  </main>
+{{ end }}

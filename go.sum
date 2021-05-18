@@ -1,0 +1,7 @@
+github.com/gohugoio/hugo-mod-bootstrap-scss-v4 v0.0.0-20200902213320-c9cb5e39d8c6 h1:Neo6xDvmZMV41d4kmbjv9ZCYuqzbITl8R/4t6Aeng5A=
+github.com/gohugoio/hugo-mod-bootstrap-scss-v4 v0.0.0-20200902213320-c9cb5e39d8c6/go.mod h1:dAcE2kCmCarbiwNTV4xxlDFShQHiok9kDjw1VoN2J8g=
+github.com/jgthms/bulma v0.0.0-20210503185431-49b0100e1bd9 h1:letevr8YixwJZrEdXTx/CKMi2wXoEJ3/QT5Ekn9pUf0=
+github.com/jgthms/bulma v0.0.0-20210503185431-49b0100e1bd9/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
+github.com/thednp/bootstrap.native v0.0.0-20210208065639-9692a29f3498 h1:RPim3tV5xj+7TCFn3OSQAIclWVq6uce0RU6a7ZeQSYs=
+github.com/thednp/bootstrap.native v0.0.0-20210208065639-9692a29f3498/go.mod h1:apvEEkedEAYkAOjFu4DSnvP3QeFy+8tq7mjzzEfhQCA=
+github.com/twbs/bootstrap v4.5.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

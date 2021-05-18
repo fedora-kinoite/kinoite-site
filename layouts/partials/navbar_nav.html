@@ -1,0 +1,39 @@
+<nav class="navbar container is-transparent" role="navigation" aria-label="main navigation">
+  {{ $currentPage := . }}
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/img/Fedora_logo.svg" width="50" height="50">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+          <li class="navbar-item has-dropdown is-hoverable {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+            <a class="navbar-link" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              {{ .Name }}
+            </a>
+            <div class="navbar-dropdown">
+              {{ range .Children }}
+                <a class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
+                   href="{{ .URL }}">{{ .Name }}
+                </a>
+              {{ end }}
+            </div>
+          </li>
+        {{ else }}
+          <a class="navbar-item" href="{{ .URL }}">
+            {{ .Name }}
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</nav>
