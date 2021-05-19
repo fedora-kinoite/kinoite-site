@@ -10,6 +10,7 @@
   --text-strong: hsl(0%, 0%, 2%);
   --menu-item-color: hsl(0, 0%, 4%);
   --primary: #0079c1;
+  --border: rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,6 +20,7 @@
     --text-strong: #eaeaea;
     --menu-item-color: #eaeaea;
     --primary: #0079c1;
+    --border: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -47,9 +49,25 @@ body {
   color: var(--text);
 }
 
+.card {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1rem;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.basis-0 {
+  flex-basis: 0;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+
 /* Homepage */
 .small-container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
