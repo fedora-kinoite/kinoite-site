@@ -108,6 +108,26 @@ body {
   color: var(--menu-item-color);
 }
 
+hr {
+  background-color: var(--border);
+}
+
+@media (prefers-color-scheme: dark) {
+  .button {
+    border: 1px solid var(--border);
+    background-color: var(--background);
+    color: var(--text);
+    &:active {
+      border: 2px solid var(--primary);
+      color: var(--text);
+    }
+    &:hover, &:focus {
+      border-color: var(--primary);
+      color: var(--text);
+    }
+  }
+}
+
 .navbar-item {
   color: var(--menu-item-color);
   font-size: 1.25rem;
