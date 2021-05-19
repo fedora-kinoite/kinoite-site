@@ -32,6 +32,17 @@ tagline:
 title:
   other: Fedora Kinoite
 
+related:
+  other: Related Projects
+silverblue:
+  other: Silverblue
+silverblue.description:
+  other: Fedora Silverblue is based on the same technology as Kinoite and comes with GNOME instead of Plasma by default.
+coreos:
+  other: coreOS
+coreos.description:
+  other: CoreOS is a server distribution based on the same technology as Kinoite.
+
 footer.credit: |
   © 2021 Fedora Kinoite.
 
