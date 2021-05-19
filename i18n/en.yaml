@@ -1,11 +1,36 @@
-ostree-description:
-  other: rpm-ostree is a hybrid image/package system. It combines libostree as a base immutable image format, and accepts installing RPM on both the client and server side, sharing code with the dnf project.
-podman-description:
-  other: Podman is a daemonless container engine for developing, managing, and running Open Container Initiative (OCI) containers and container images on your Linux System.
 podman:
   other: Podman
+podman.description:
+  other: Podman is a daemonless container engine for developing, managing, and running Open Container Initiative (OCI) containers and container images on your Linux System.
+plasma:
+  other: Plasma
+plasma.description:
+  other: A modern and modular desktop built with love by the KDE Community
 applications:
   other: Applications
+applications.description:
+  other: Download hundreds of open-source applications thanks to Flatpak
+rpm-ostree:
+  other: rpm-ostree
+rpm-ostree.description:
+  other: rpm-ostree is a hybrid image/package system. It combines libostree as a base immutable image format, and accepts installing RPM on both the client and server side, sharing code with the dnf project.
+fedora:
+  other: Fedora
+fedora.description:
+  other: Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.
+built-on:
+  other: Built on top of the best
+screenshot.description:
+  other: Download hundreds of open-source applications thanks to Flatpak
+download:
+  other: Download
+
+description:
+  other: Surf the web, keep in touch with friends, manage files, enjoy music and video, and get productive at work without having to worry about breaking your system.
+tagline:
+    ohter: The Next Generation Operating System
+title:
+  other: Fedora Kinoite
 
 footer.credit: |
   © 2021 Fedora Kinoite.

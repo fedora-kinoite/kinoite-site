@@ -2,27 +2,27 @@
 <main id="home">
   <section class="hero is-fullheight-with-navbar">
     <div class="container px-3 has-text-centered is-flex-center-vertial-childs">
-      <h1 class="is-size-1">Fedora Kinoite</h1>
-      <h1 class="is-size-3">The Next Generation Operating System</h1>
-      <h2 class="is-size-5 mt-3 small-container">Surf the web, keep in touch with friends, manage files, enjoy music and video, and get productive at work without having to worry about breaking your system.</h2>
-      <div class="has-text-centered mt-4"><a href="" class="button is-primary">Download</a></div>
+      <h1 class="is-size-1">{{ i18n "title" }}</h1>
+      <h1 class="is-size-3">{{ i18n "tagline" }}</h1>
+      <h2 class="is-size-5 mt-3 small-container">{{ i18n "description" }}</h2>
+      <div class="has-text-centered mt-4"><a href="" class="button is-primary">{{ i18n "download" }}</a></div>
     </div>
     <div class="laptop-background">
       <div class="laptop-with-overlay mt-2 mb-3">
         <img class="laptop img-fluid mt-3" src="https://kde.org/reusable-assets/laptop.svg" alt="empty laptop with an overlay">
         <div class="laptop-overlay">
-          <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.21.0/plasma-dark.webp" alt="Screenshot Plasma with Dolphin and system setting open" loading="lazy" width="1200" height="675">
+          <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.21.0/plasma-dark.webp" alt="{{ i18n "screenshot.description" }}" loading="lazy" width="1200" height="675">
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <h1 class="has-text-centered is-size-2 mb-5">Built on top of the best</h1>
+    <h1 class="has-text-centered is-size-2 mb-5">{{ i18n "built-on" }}</h1>
     <div class="components">
       <a href="https://getfedora.org" class="product product-fedora">
-        <h2 class="is-size-2">Fedora</h2>
-        <h3 class="has-text-centered">Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.</h3>
+        <h2 class="is-size-2">{{ i18n "fedora" }}</h2>
+        <h3 class="has-text-centered">{{ i18n "fedora.description" }}</h3>
       </a>
       <a href="https://kde.org/plasma-desktop" class="product product-plasma">
         <svg class="plasma-logo" width="54" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
@@ -41,34 +41,34 @@
            <flowRegion id="flowRegion4172">
             <rect width="87.75001" x="452.32144" y="489.79807" height="48.750004" id="rect4174"/>
            </flowRegion>
-           <flowPara id="flowPara4176">Plasm</flowPara>
+           <flowPara id="flowPara4176">Plasma</flowPara>
           </flowRoot>
           <rect width="9.00002" x="390.57141" y="509.2988" rx="4.499995" height="8.999991" style="fill:#fff" id="rect4308"/>
           <rect width="12.999995" x="403.57144" y="528.79803" rx="6.499998" height="12.999995" style="fill:#fff" id="rect4312"/>
           <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4434);opacity:0.9;fill-rule:evenodd" id="path4426" d="m 423.57143,512.798 6,6 7,-7 -6,-6 z"/>
          </g>
         </svg>
-        <h2 class="is-size-1">Plasma</h2>
-        <h3 class="">A modern and modular desktop built with love by the KDE Community</h3>
+        <h2 class="is-size-1">{{ i18n "plasma" }}</h2>
+        <h3 class="">{{ i18n "plasma.description" }}</h3>
        </a>
-      <a href="/applications" class="product product-applications">
+      <a href="https://docs.fedoraproject.org/en-US/fedora-kinoite/getting-started/#flatpak" class="product product-applications">
         <div class="description ">
-          <h2 class="is-size-3">Applications</h2>
-          <h3>Download hundreds of open-source applications thanks to Flatpak</h3>
+          <h2 class="is-size-3">{{ i18n "applications" }}</h2>
+          <h3>{{ i18n "rpm-ostree.description" }}</h3>
         </div>
       </a>
       <a href="https://rpm-ostree.readthedocs.io/en/latest/" class="product product-ostree">
         <div class="description ">
           <img src="https://avatars.githubusercontent.com/u/3730757?s=200&v=4" alt="">
-          <h2 class="is-size-3">rpm-ostree</h2>
-          <p class="">{{ i18n "ostree-description" }}</p>
+          <h2 class="is-size-3">{{ i18n "rpm-ostree" }}</h2>
+          <p class="">{{ i18n "rpm-ostree.description" }}</p>
         </div>
       </a>
       <a href="https://rpm-ostree.readthedocs.io/en/latest/" class="product product-podman">
         <div class="description ">
           <img src="https://podman.io/images/podman.svg" alt="">
           <h2 class="is-size-3">{{ i18n "podman" }}</h2>
-          <p class="">{{ i18n "podman-description" }}</p>
+          <p class="">{{ i18n "podman.description" }}</p>
         </div>
       </a>
     </div>
