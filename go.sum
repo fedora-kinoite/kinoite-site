@@ -4,4 +4,5 @@ github.com/jgthms/bulma v0.0.0-20210503185431-49b0100e1bd9 h1:letevr8YixwJZrEdXT
 github.com/jgthms/bulma v0.0.0-20210503185431-49b0100e1bd9/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
 github.com/thednp/bootstrap.native v0.0.0-20210208065639-9692a29f3498 h1:RPim3tV5xj+7TCFn3OSQAIclWVq6uce0RU6a7ZeQSYs=
 github.com/thednp/bootstrap.native v0.0.0-20210208065639-9692a29f3498/go.mod h1:apvEEkedEAYkAOjFu4DSnvP3QeFy+8tq7mjzzEfhQCA=
+github.com/twbs/bootstrap v4.5.2+incompatible h1:QR6UOtm1+LCDK53CzEp8U0NPIYeRUktVgNhq0gaAGP0=
 github.com/twbs/bootstrap v4.5.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
