@@ -3,6 +3,15 @@
     <h1 class="is-size-1 mb-5 has-text-weight-light">{{ .Title }}</h1>
 
     <div class='has-text-centered'>
+        <h2 class="is-size-2">
+            {{ i18n "pre-release-warning" }}
+        </h2>
+        <p class="is-size-4">{{ i18n "pre-release-warning.description" }}</p>
+    </div>
+
+    <hr class="mt-6 mb-6">
+
+    <div class='has-text-centered'>
         <h2 class="is-size-3">
             {{ i18n "available-for" }}
         </h2>
@@ -13,13 +22,19 @@
             <h3 class="is-size-4">
                 {{ i18n "using-amd64" }}
             </h3>
-            <div class="has-text-centered mt-4"><a href="" class="button is-primary">{{ i18n "download-for-amd64" }}</a></div>
+            <div class="has-text-centered mt-4"><a href="https://kojipkgs.fedoraproject.org/compose/branched/latest-Fedora-35/compose/Kinoite/x86_64/iso/" class="button is-primary">{{ i18n "download-for-amd64" }}</a></div>
         </div>
         <div class="card basis-0 grow-1 ml-2 mr-2">
             <h3 class="is-size-4">
-                {{ i18n "using-arm" }}
+                {{ i18n "using-aarch64" }}
             </h3>
-            <div class="has-text-centered mt-4"><a href="" class="button is-primary">{{ i18n "download-for-arm" }}</a></div>
+            <div class="has-text-centered mt-4"><a href="https://kojipkgs.fedoraproject.org/compose/branched/latest-Fedora-35/compose/Kinoite/aarch64/iso/" class="button is-primary">{{ i18n "download-for-aarch64" }}</a></div>
+        </div>
+        <div class="card basis-0 grow-1 ml-2 mr-2">
+            <h3 class="is-size-4">
+                {{ i18n "using-ppc64le" }}
+            </h3>
+            <div class="has-text-centered mt-4"><a href="https://kojipkgs.fedoraproject.org/compose/branched/latest-Fedora-35/compose/Kinoite/ppc64le/iso/" class="button is-primary">{{ i18n "download-for-ppc64le" }}</a></div>
         </div>
     </div>
 
@@ -31,20 +46,20 @@
                 {{ i18n "fedora-media-writer" }}
             </h3>
             <p class="mt-2">
-                {{ i18n "fmw-blurb" }}
+                {{ i18n "fedora-media-writer.description" }}
             </p>
             <div class="card is-flex is-flex-direction-row is-align-content-center is-align-items-center">
                 <p class="mb-0">
                     {{ i18n "download-for" }}
                 </p>
                 <div class="grow-1"></div>
-                <a href="" class="button ml-2">{{ i18n "win" }}</a>
-                <a href="" class="button ml-2">{{ i18n "mac" }}</a>
-                <a href="" class="button ml-2">{{ i18n "linux" }}</a>
+                <a href="https://getfedora.org/fmw/FedoraMediaWriter-win32-latest.exe" class="button ml-2">{{ i18n "win" }}</a>
+                <a href="https://getfedora.org/fmw/FedoraMediaWriter-osx-latest.dmg" class="button ml-2">{{ i18n "mac" }}</a>
+                <a href="https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media" class="button ml-2">{{ i18n "linux" }}</a>
             </div>
         </div>
-        <div class="basis-0 grow-1 ml-2 mr-2" style="background: red;">
-
+        <div class="basis-0 grow-1 ml-2 mr-2">
+          <img src="https://getfedora.org/static/images/g-monitor-mediawriter.png">
         </div>
     </div>
 

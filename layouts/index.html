@@ -5,13 +5,13 @@
       <h1 class="is-size-1">{{ i18n "title" }}</h1>
       <h1 class="is-size-3">{{ i18n "tagline" }}</h1>
       <h2 class="is-size-5 mt-3 small-container">{{ i18n "description" }}</h2>
-      <div class="has-text-centered mt-4"><a href="" class="button is-primary">{{ i18n "download" }}</a></div>
+      <div class="has-text-centered mt-4"><a href="/download" class="button is-primary">{{ i18n "download" }}</a></div>
     </div>
     <div class="laptop-background">
       <div class="laptop-with-overlay mt-2 mb-3">
         <img class="laptop img-fluid mt-3" src="/img/laptop.svg" alt="empty laptop with an overlay">
         <div class="laptop-overlay">
-          <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.21.0/plasma-dark.webp" alt="{{ i18n "screenshot.description" }}" loading="lazy" width="1200" height="675">
+          <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.22.0/plasma-dark.webp" alt="{{ i18n "screenshot.description" }}" loading="lazy" width="1200" height="675">
         </div>
       </div>
     </div>
@@ -25,48 +25,26 @@
         <h3 class="has-text-centered">{{ i18n "fedora.description" }}</h3>
       </a>
       <a href="https://kde.org/plasma-desktop" class="product product-plasma">
-        <svg class="plasma-logo" width="54" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
-         <defs id="defs5455">
-          <linearGradient inkscape:collect="always" id="linearGradient4326">
-           <stop id="stop4328"/>
-           <stop offset="1" style="stop-opacity:0" id="stop4330"/>
-          </linearGradient>
-          <linearGradient inkscape:collect="always" xlink:href="#linearGradient4326" id="linearGradient4434" y1="502.798" x1="439.57144" y2="512.79803" x2="429.57144" gradientUnits="userSpaceOnUse"/>
-         </defs>
-         <metadata id="metadata5458"/>
-         <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -483.798)">
-          <path style="fill:#fff;fill-rule:evenodd" id="path4422" d="M 41 5 L 35 11 L 46 22 L 35 33 L 41 39 L 58 22 L 41 5 z " transform="matrix(1 0 0 1 384.57143 483.798)"/>
-          <rect width="6.250019" x="400.32141" y="489.79797" rx="3.12501" height="6.250019" style="fill:#fff" id="rect4119"/>
-          <flowRoot line-height="125%" style="font-size:32.500004;font-family:sans-serif" id="flowRoot4170">
-           <flowRegion id="flowRegion4172">
-            <rect width="87.75001" x="452.32144" y="489.79807" height="48.750004" id="rect4174"/>
-           </flowRegion>
-           <flowPara id="flowPara4176">Plasma</flowPara>
-          </flowRoot>
-          <rect width="9.00002" x="390.57141" y="509.2988" rx="4.499995" height="8.999991" style="fill:#fff" id="rect4308"/>
-          <rect width="12.999995" x="403.57144" y="528.79803" rx="6.499998" height="12.999995" style="fill:#fff" id="rect4312"/>
-          <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4434);opacity:0.9;fill-rule:evenodd" id="path4426" d="m 423.57143,512.798 6,6 7,-7 -6,-6 z"/>
-         </g>
-        </svg>
+        <img src="img/plasma_logo.svg" alt="KDE Plasma logo">
         <h2 class="is-size-1">{{ i18n "plasma" }}</h2>
         <h3 class="">{{ i18n "plasma.description" }}</h3>
        </a>
-      <a href="https://docs.fedoraproject.org/en-US/fedora-kinoite/getting-started/#flatpak" class="product product-applications">
-        <div class="description ">
+      <a href="https://flathub.org/home" class="product product-applications">
+        <div class="description">
           <h2 class="is-size-3">{{ i18n "applications" }}</h2>
           <h3>{{ i18n "rpm-ostree.description" }}</h3>
         </div>
       </a>
-      <a href="https://rpm-ostree.readthedocs.io/en/latest/" class="product product-ostree">
-        <div class="description ">
-          <img src="https://avatars.githubusercontent.com/u/3730757?s=200&v=4" alt="">
+      <a href="https://coreos.github.io/rpm-ostree/" class="product product-ostree">
+        <div class="description">
+          <img src="/img/fcos_logo.svg" alt="Fedora CoreOS logo">
           <h2 class="is-size-3">{{ i18n "rpm-ostree" }}</h2>
           <p class="">{{ i18n "rpm-ostree.description" }}</p>
         </div>
       </a>
-      <a href="https://rpm-ostree.readthedocs.io/en/latest/" class="product product-podman">
-        <div class="description ">
-          <img src="https://podman.io/images/podman.svg" alt="">
+      <a href="https://podman.io/" class="product product-podman">
+        <div class="description">
+          <img src="/img/podman_logo.svg" alt="podman logo">
           <h2 class="is-size-3">{{ i18n "podman" }}</h2>
           <p class="">{{ i18n "podman.description" }}</p>
         </div>
@@ -76,20 +54,25 @@
 
   <section class="small-container">
     <h1 class="has-text-centered is-size-2 mb-5">{{ i18n "related" }}</h1>
-    <div class="columns">
+    <p class="has-text-centered is-size-5">{{ i18n "related.description" }}</p>
+    <div class="components">
       <div class="column has-text-centered">
         <a href="https://silverblue.fedoraproject.org/">
-          <img src="https://silverblue.fedoraproject.org/public/silverblue-logo.svg" alt="" width=64>
-          <h2 class="is-size-3">{{ i18n "silverblue" }}</h2>
+          <img src="/img/silverblue_logo.svg" alt="" height=100>
         </a>
-        <p class="">{{ i18n "silverblue.description" }}</p>
+        <p class="">{{ i18n "related.silverblue.description" }}</p>
       </div>
       <div class="column has-text-centered">
-        <a href="https://getfedora.org/en/coreos?stream=stable">
-          <img src="https://avatars.githubusercontent.com/u/3730757?s=200&v=4" alt="" width=80>
-          <h2 class="is-size-3">{{ i18n "coreos" }}</h2>
+        <a href="https://getfedora.org/en/iot/">
+          <img src="/img/iot_logo.svg" alt="Fedora IoT logo" height=100>
         </a>
-        <p class="">{{ i18n "coreos.description" }}</p>
+        <p class="">{{ i18n "related.iot.description" }}</p>
+      </div>
+      <div class="column has-text-centered">
+        <a href="https://getfedora.org/en/coreos">
+          <img src="/img/coreos_logo.svg" alt="Fedora CoreOS logo" height=100>
+        </a>
+        <p class="">{{ i18n "related.coreos.description" }}</p>
       </div>
     </div>
   </section>
