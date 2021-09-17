@@ -1,4 +1,4 @@
-baseURL: https://kde.org/
+baseURL: https://kinoite.fedoraproject.org/
 canonifyURLs: true
 defaultContentLanguage: en
 enableGitInfo: true
