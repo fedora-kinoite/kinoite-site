@@ -1,2 +1,4 @@
+/i18n/*.yaml
+/locale/
 /public/
 /resources/
