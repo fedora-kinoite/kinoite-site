@@ -1,17 +1,19 @@
 {{ define "main" }}
 <main id="home">
-  <section class="hero is-fullheight-with-navbar">
+  <section class="hero">
     <div class="container px-3 has-text-centered is-flex-center-vertial-childs">
       <h1 class="is-size-1">{{ i18n "title" }}</h1>
       <h1 class="is-size-3">{{ i18n "tagline" }}</h1>
       <h2 class="is-size-5 mt-3 small-container">{{ i18n "description" }}</h2>
-      <div class="has-text-centered mt-4"><a href="/download" class="button is-primary">{{ i18n "download" }}</a></div>
-    </div>
-    <div class="laptop-background">
-      <div class="laptop-with-overlay mt-2 mb-3">
-        <img class="laptop img-fluid mt-3" src="/img/laptop.svg" alt="empty laptop with an overlay">
-        <div class="laptop-overlay">
-          <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.22.0/plasma-dark.webp" alt="{{ i18n "screenshot.description" }}" loading="lazy" width="1200" height="675">
+      <br/>
+      <div class="has-text-centered mt-4"><a href="/download" class="button is-primary is-size-4">{{ i18n "download" }}</a></div>
+      <br/>
+      <div class="laptop-background">
+        <div class="laptop-with-overlay mt-2 mb-3">
+          <img class="laptop img-fluid mt-3" src="/img/laptop.svg" alt="empty laptop with an overlay">
+          <div class="laptop-overlay">
+            <img class="img-fluid mt-3" src="https://kde.org/announcements/plasma/5/5.22.0/plasma-dark.webp" alt="{{ i18n "screenshot.description" }}" loading="lazy" width="1200" height="675">
+          </div>
         </div>
       </div>
     </div>
@@ -56,23 +58,53 @@
     <h1 class="has-text-centered is-size-2 mb-5">{{ i18n "related" }}</h1>
     <p class="has-text-centered is-size-5">{{ i18n "related.description" }}</p>
     <div class="components">
-      <div class="column has-text-centered">
+      <div class="column related">
         <a href="https://silverblue.fedoraproject.org/">
-          <img src="/img/silverblue_logo.svg" alt="" height=100>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="/img/silverblue_logo.svg" alt="Fedora Silverblue logo">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                {{ i18n "related.silverblue.description" }}
+              </div>
+            </div>
+          </div>
         </a>
-        <p class="">{{ i18n "related.silverblue.description" }}</p>
       </div>
-      <div class="column has-text-centered">
+      <div class="column related">
         <a href="https://getfedora.org/en/iot/">
-          <img src="/img/iot_logo.svg" alt="Fedora IoT logo" height=100>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="/img/iot_logo.svg" alt="Fedora IoT logo">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                {{ i18n "related.iot.description" }}
+              </div>
+            </div>
+          </div>
         </a>
-        <p class="">{{ i18n "related.iot.description" }}</p>
       </div>
-      <div class="column has-text-centered">
+      <div class="column related">
         <a href="https://getfedora.org/en/coreos">
-          <img src="/img/coreos_logo.svg" alt="Fedora CoreOS logo" height=100>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="/img/coreos_logo.svg" alt="Fedora CoreOS logo">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                {{ i18n "related.coreos.description" }}
+              </div>
+            </div>
+          </div>
         </a>
-        <p class="">{{ i18n "related.coreos.description" }}</p>
       </div>
     </div>
   </section>

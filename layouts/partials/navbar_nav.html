@@ -34,6 +34,39 @@
           </a>
         {{ end }}
       {{ end }}
+      <div class="navbar-item dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button" aria-haspopup="true" aria-controls="dropdown-languages">
+            <span>
+            <img src="https://kde.org/aether/languages.png" alt="" style="margin: 5px 10px 0px 0px;">
+            </span>
+            <span>{{ i18n "footer.languages" }}</span>
+            <span class="icon is-small">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-languages" role="menu">
+          <div class="dropdown-content">
+            <a class="dropdown-item" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ $firstLang := .Sites.First.Language.Lang }}
+            {{ if ne .Language.Lang $firstLang }}
+            {{ with index .AllTranslations 0 }}
+            <a class="dropdown-item" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
+            {{ end }}
+            {{ range sort (where .Translations "Language.Lang" "!=" $firstLang) "Language.LanguageName" }}
+              {{ with .Language.Params.hidden }}
+                {{ if not . }}
+                  <a class="dropdown-item" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                {{ end }}
+              {{ else }}
+                <a class="dropdown-item" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </nav>

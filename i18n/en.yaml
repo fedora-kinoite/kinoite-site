@@ -1,7 +1,7 @@
 title:
   other: "Fedora Kinoite"
 tagline:
-  ohter: "The Next Generation Operating System"
+  other: "The Next Generation Operating System"
 description:
   other: "Surf the web, keep in touch with friends, manage files, enjoy music and video, and get productive at work without having to worry about breaking your system."
 download:
@@ -10,7 +10,7 @@ download:
 built-on:
   other: "Built on top of the best"
 fedora:
-  other: "Fedora Linux"
+  other: "Fedora"
 fedora.description:
   other: "Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users."
 plasma:
@@ -69,22 +69,19 @@ download-for-ppc64le:
 fedora-media-writer:
   other: "Fedora Media Writer"
 fedora-media-writer.description:
-  other: |
-    Setting Fedora Kinoite up has never been easier.
-    All you need is a 4GB flash drive and Fedora Media Writer.
-
-    Once Fedora Media Writer is installed, simply use it to flash your
-    drive. Lorem ipsum dolor sit amet, I have no idea if Kinoite has
-    a live CD. Marketing is hard when you don't know what you're marketing.
-
-download-for:
-  other: "Download for..."
-win:
+  other: "Setting Fedora Kinoite up has never been easier. All you need is a 4GB flash drive and Fedora Media Writer. Once Fedora Media Writer is installed, simply use it to flash your drive."
+fedora-media-writer.download:
+  other: "Download for:"
+fedora-media-writer.windows:
   other: "Windows"
-mac:
+fedora-media-writer.macos:
   other: "macOS"
-linux:
+fedora-media-writer.linux:
   other: "Linux"
+fedora-media-writer.not-sure:
+  other: "Not sure how to use this file?"
+fedora-media-writer.learn:
+  other: "Learn here."
 
 legalese-header:
   other: "By clicking on and downloading Fedora, you agree to comply with the following terms and conditions."
@@ -92,5 +89,7 @@ legalese-header:
 legalese:
   other: "By downloading Fedora software, you acknowledge that you understand all of the following: Fedora software and technical information may be subject to the U.S. Export Administration Regulations (the \u201cEAR\u201d) and other U.S. and foreign laws and may not be exported, re-exported or transferred (a) to any country listed in Country Group E:1 in Supplement No. 1 to part 740 of the EAR (currently, Cuba, Iran, North Korea, Sudan & Syria); (b) to any prohibited destination or to any end user who has been prohibited from participating in U.S. export transactions by any federal agency of the U.S. government; or (c) for use in connection with the design, development or production of nuclear, chemical or biological weapons, or rocket systems, space launch vehicles, or sounding rockets, or unmanned air vehicle systems. You may not download Fedora software or technical information if you are located in one of these countries or otherwise subject to these restrictions. You may not provide Fedora software or technical information to individuals or entities located in one of these countries or otherwise subject to these restrictions. You are also responsible for compliance with foreign law requirements applicable to the import, export and use of Fedora software and technical information."
 
+footer.languages:
+  other: "Languages"
 footer.credit:
   other: "Design made by [Carl Schwan](https://carlschwan.eu) © 2021 Fedora Project"

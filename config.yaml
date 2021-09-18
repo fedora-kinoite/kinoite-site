@@ -1,24 +1,25 @@
 baseURL: https://kinoite.fedoraproject.org/
 canonifyURLs: true
 defaultContentLanguage: en
+disableKinds:
+- taxonomy
+- term
 enableGitInfo: true
 enableRobotsTXT: true
 i18n:
   content:
+    kinoite-fedoraproject-org:
+      files:
+      - content/_index.md
+      - content/get-involved.md
+      - content/download/_index.md
   excludedKeys: changelog class color figure hero_image image images licenses link
     logo major_version peertube release src url version version_text video youtube
   genToOtherDir: true
   langs: ast ca ca@valencia cs de es et eu fi fr gl hu it ko nl pt pt_BR ru sk sv
     tr uk zh_CN
   others:
-  - menu
   - strings
-module:
-  imports:
-    - path: "github.com/jgthms/bulma"
-      mounts:
-        - source: "sass"
-          target: "assets/sass/bulma"
 languages:
   en:
     contentDir: content/
@@ -42,6 +43,12 @@ markup:
       unsafe: true
   highlight:
     style: tango
+module:
+  imports:
+  - mounts:
+    - source: sass
+      target: assets/sass/bulma
+    path: github.com/jgthms/bulma
 outputs:
   home:
   - HTML
@@ -49,8 +56,9 @@ outputs:
   section:
   - HTML
 params:
+  description: Fedora Kinoite is an immutable desktop operating system featuring the KDE Plasma desktop
   images:
   - /thumbnail.png
-  matomo: 1
+  title: Fedora Kinoite
 rssLimit: 4
 summaryLength: 15

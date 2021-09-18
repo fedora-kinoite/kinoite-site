@@ -312,6 +312,19 @@ hr {
   }
 }
 
+.related {
+  display: flex;
+
+  a {
+    color: var(--text);
+    transition: transform 0.3s;
+  }
+
+  a:hover {
+    transform: scale(1.03);
+  }
+}
+
 
 /* Utils */
 
