@@ -1,7 +1,7 @@
 # Fedora Kinoite website
 
 This is source repo for the website available at <https://kinoite.fedoraproject.org/>.
-The staging deployment is available at <https://stg.kinoite.fedoraproject.org/>.
+The staging deployment is available at <https://kinoite.stg.fedoraproject.org/>.
 
 ## Setup
 
@@ -74,7 +74,7 @@ git -C ../kinoite-site-staging commit "Update ($(date --utc --iso-8601=min))"
 git -C ../kinoite-site-staging push
 ```
 
-- Wait for <https://stg.kinoite.fedoraproject.org/> to be updated (happens every hour).
+- Wait for <https://kinoite.stg.fedoraproject.org/> to be updated (happens every hour).
 
 - Once satisfied with the result, repeat (without the staging config) to push
   to production:
