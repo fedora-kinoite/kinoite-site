@@ -312,8 +312,14 @@ hr {
   }
 }
 
+.related-projects {
+  justify-content: center;
+}
+
 .related {
   display: flex;
+  min-width: 250px;
+  max-width: 350px;
 
   a {
     color: var(--text);
