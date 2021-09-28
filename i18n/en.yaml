@@ -47,10 +47,6 @@ related.iot:
 related.iot.description:
   other: "Fedora IoT provides a strong foundation for IoT ecosystems: a project at home, industrial gateways, smart cities or analytics with AI/ML."
 
-pre-release-warning:
-  other: "Warning! Pre-release version!"
-pre-release-warning.description:
-  other: "This version of Fedora Kinoite is still in development and no stable release has been made yet. You may encounter bugs and you are welcomed to report them. Use at your own risk!"
 available-for:
   other: "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
 download-for-amd64:
@@ -58,12 +54,29 @@ download-for-amd64:
 download-for-aarch64:
   other: "Download for AArch64"
 download-for-ppc64le:
+  other: "Download for ppc64le"
+verify:
+  other: "Verify your download"
+
+beta.download-for-ppc64le:
   other: "Coming later for ppc64le"
 
+beta.warning:
+  other: "Warning! Pre-release (Beta) version!"
+beta.warning.description:
+  other: "This version of Fedora Kinoite is still in Beta and no stable release has been made yet. You may encounter bugs and you are welcomed to report them. Use at your own risk!"
+
+learn.not-sure:
+  other: "Not sure how to use this file?"
+learn.here:
+  other: "Learn here."
+learn.iso-url:
+  other: "https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/index.html"
+
 fedora-media-writer:
-  other: "Fedora Media Writer"
+  other: "On Windows or macOS? Try Fedora Media Writer."
 fedora-media-writer.description:
-  other: "Setting Fedora Kinoite up has never been easier. All you need is a 4GB flash drive and Fedora Media Writer. Once Fedora Media Writer is installed, simply use it to flash your drive."
+  other: "Get started by using Fedora Media Writer, which makes it super easy to give Fedora Kinoite a try. All you need is a 4GB flash drive and Fedora Media Writer. Once Fedora Media Writer is installed, use it to flash your drive using the file you have downloaded above."
 fedora-media-writer.download:
   other: "Download for:"
 fedora-media-writer.windows:
@@ -72,10 +85,13 @@ fedora-media-writer.macos:
   other: "macOS"
 fedora-media-writer.linux:
   other: "Linux"
-fedora-media-writer.not-sure:
-  other: "Not sure how to use this file?"
-fedora-media-writer.learn:
-  other: "Learn here."
+
+security.seriously:
+  other: "We take security seriously."
+security.description:
+  other: "Once you have downloaded an image, be sure to verify it for both security and integrity."
+security.verify:
+  other: "Verify your download."
 
 legalese-header:
   other: "By clicking on and downloading Fedora, you agree to comply with the following terms and conditions."
