@@ -138,15 +138,7 @@ msgid "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Using x86_64?"
-msgstr ""
-
-#: i18n/en.yaml:0
 msgid "Download for x86_64"
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid "Using AArch64?"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -154,11 +146,7 @@ msgid "Download for AArch64"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Using POWER8 or later?"
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid "Download for ppc64le"
+msgid "Coming later for ppc64le"
 msgstr ""
 
 #: i18n/en.yaml:0

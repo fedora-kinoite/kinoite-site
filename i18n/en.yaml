@@ -53,18 +53,12 @@ pre-release-warning.description:
   other: "This version of Fedora Kinoite is still in development and no stable release has been made yet. You may encounter bugs and you are welcomed to report them. Use at your own risk!"
 available-for:
   other: "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
-using-amd64:
-  other: "Using x86_64?"
 download-for-amd64:
   other: "Download for x86_64"
-using-aarch64:
-  other: "Using AArch64?"
 download-for-aarch64:
   other: "Download for AArch64"
-using-ppc64le:
-  other: "Using POWER8 or later?"
 download-for-ppc64le:
-  other: "Download for ppc64le"
+  other: "Coming later for ppc64le"
 
 fedora-media-writer:
   other: "Fedora Media Writer"
