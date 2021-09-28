@@ -47,4 +47,7 @@
   {{ $style := resources.Get . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
   {{ end }}
+
+  {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
+  <script type="text/javascript" src="{{ $mainJs.RelPermalink }}" defer></script>
 </head>
