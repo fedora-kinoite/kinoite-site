@@ -123,17 +123,6 @@ msgid ""
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Warning! Pre-release version!"
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid ""
-"This version of Fedora Kinoite is still in development and no stable release"
-" has been made yet. You may encounter bugs and you are welcomed to report "
-"them. Use at your own risk!"
-msgstr ""
-
-#: i18n/en.yaml:0
 msgid "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
 msgstr ""
 
@@ -146,18 +135,52 @@ msgid "Download for AArch64"
 msgstr ""
 
 #: i18n/en.yaml:0
+msgid "Download for ppc64le"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Verify your download"
+msgstr ""
+
+#: i18n/en.yaml:0
 msgid "Coming later for ppc64le"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Fedora Media Writer"
+msgid "Warning! Pre-release (Beta) version!"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"Setting Fedora Kinoite up has never been easier. All you need is a 4GB flash"
-" drive and Fedora Media Writer. Once Fedora Media Writer is installed, "
-"simply use it to flash your drive."
+"This version of Fedora Kinoite is still in Beta and no stable release has "
+"been made yet. You may encounter bugs and you are welcomed to report them. "
+"Use at your own risk!"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Not sure how to use this file?"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Learn here."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
+"installation-image/index.html"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "On Windows or macOS? Try Fedora Media Writer."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Get started by using Fedora Media Writer, which makes it super easy to give "
+"Fedora Kinoite a try. All you need is a 4GB flash drive and Fedora Media "
+"Writer. Once Fedora Media Writer is installed, use it to flash your drive "
+"using the file you have downloaded above."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -177,11 +200,23 @@ msgid "Linux"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Not sure how to use this file?"
+msgid ""
+"https://docs.fedoraproject.org/en-US/fedora/f34/install-"
+"guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Learn here."
+msgid "We take security seriously."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"Once you have downloaded an image, be sure to verify it for both security "
+"and integrity."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Verify your download."
 msgstr ""
 
 #: i18n/en.yaml:0
