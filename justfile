@@ -56,3 +56,11 @@ final-commit: commit-stg commit-prod
 final-amend: amend-stg amend-prod
 
 final-push: push-stg push-prod
+
+log-stg:
+	git -C ../{{site}}-staging status
+	git -C ../{{site}}-staging log --pretty=oneline --max-count=10
+
+log-prod:
+	git -C ../{{site}}-production status
+	git -C ../{{site}}-production log --pretty=oneline --max-count=10
