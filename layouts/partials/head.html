@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="KDE is an open community of friendly people who want to create a world in which everyone has control over their digital life and enjoys freedom and privacy.">
+  <meta name="description" content="{{ .Params.description }}">
   <meta name="author" content="">
   <title>{{ .Title }}</title>
   <link rel="canonical" href="{{ .Permalink }}">
@@ -13,12 +13,12 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:description" content="{{ .Params.description }}">
-  <meta property="og:site_name" content="KinoiteFedoraProject.org">
+  <meta property="og:site_name" content="{{ .Params.title }}">
   <meta property="og:image" content="https://getfedora.org/static/images/g-monitor-fedoralogo.png">
 
   <!-- Twitter card configuration -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@kdecommunity">
+  <meta name="twitter:site" content="@fedora">
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ .Params.description }}">
   <meta name="twitter:image" content="https://getfedora.org/static/images/g-monitor-fedoralogo.png">
