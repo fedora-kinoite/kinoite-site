@@ -58,9 +58,6 @@ download-for-ppc64le:
 verify:
   other: "Verify your download"
 
-beta.download-for-ppc64le:
-  other: "Coming later for ppc64le"
-
 beta.warning:
   other: "Warning! Pre-release (Beta) version!"
 beta.warning.description:

@@ -143,10 +143,6 @@ msgid "Verify your download"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Coming later for ppc64le"
-msgstr ""
-
-#: i18n/en.yaml:0
 msgid "Warning! Pre-release (Beta) version!"
 msgstr ""
 

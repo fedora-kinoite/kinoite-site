@@ -2,13 +2,6 @@
 <main class="container" role="main">
     <h1 class="is-size-1 mb-5 has-text-weight-light">{{ .Title }}</h1>
 
-    <div class="has-text-centered ml-5 mr-5">
-        <h2 class="is-size-2">
-            {{ i18n "beta.warning" }}
-        </h2>
-        <p class="is-size-4">{{ i18n "beta.warning.description" }}</p>
-    </div>
-
     <hr class="mt-6 mb-6">
 
     <div class='has-text-centered mb-1'>
@@ -20,26 +13,26 @@
     <div class="columns has-text-centered mt-4">
       <div class="column">
         <div class="column is-mobile">
-          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/test/35_Beta/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-35_Beta-1.2.iso" class="button is-primary is-size-4">{{ i18n "download-for-amd64" }}</a>
+          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/35/Kinoite/x86_64/iso/Fedora-Kinoite-ostree-x86_64-35-1.2.iso" class="button is-primary is-size-4">{{ i18n "download-for-amd64" }}</a>
         </div>
         <div class="column is-mobile">
-          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/test/35_Beta/Kinoite/x86_64/iso/Fedora-Kinoite-35_Beta-1.2-x86_64-CHECKSUM" class="button is-secondary is-size-5">{{ i18n "verify" }}</a>
-        </div>
-      </div>
-      <div class="column">
-        <div class="column is-mobile">
-          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/test/35_Beta/Kinoite/aarch64/iso/Fedora-Kinoite-ostree-aarch64-35_Beta-1.2.iso" class="button is-primary is-size-4">{{ i18n "download-for-aarch64" }}</a>
-        </div>
-        <div class="column is-mobile">
-          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/test/35_Beta/Kinoite/aarch64/iso/Fedora-Kinoite-35_Beta-1.2-aarch64-CHECKSUM" class="button is-secondary is-size-5">{{ i18n "verify" }}</a>
+          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/35/Kinoite/x86_64/iso/Fedora-Kinoite-35-1.2-x86_64-CHECKSUM" class="button is-secondary is-size-5">{{ i18n "verify" }}</a>
         </div>
       </div>
       <div class="column">
         <div class="column is-mobile">
-          <a href="" class="button is-primary is-size-4" disabled>{{ i18n "beta.download-for-ppc64le" }}</a>
+          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/35/Kinoite/aarch64/iso/Fedora-Kinoite-ostree-aarch64-35-1.2.iso" class="button is-primary is-size-4">{{ i18n "download-for-aarch64" }}</a>
         </div>
         <div class="column is-mobile">
-          <a href="" class="button is-secondary is-size-5" disabled>{{ i18n "verify" }}</a>
+          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/35/Kinoite/aarch64/iso/Fedora-Kinoite-35-1.2-aarch64-CHECKSUM" class="button is-secondary is-size-5">{{ i18n "verify" }}</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="column is-mobile">
+          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/35/Kinoite/ppc64le/iso/Fedora-Kinoite-ostree-ppc64le-35-1.2.iso" class="button is-primary is-size-4">{{ i18n "download-for-ppc64le" }}</a>
+        </div>
+        <div class="column is-mobile">
+          <a href="https://download.fedoraproject.org/pub/fedora/linux/releases/35/Kinoite/ppc64le/iso/Fedora-Kinoite-35-1.2-ppc64le-CHECKSUM" class="button is-secondary is-size-5">{{ i18n "verify" }}</a>
         </div>
       </div>
     </div>
