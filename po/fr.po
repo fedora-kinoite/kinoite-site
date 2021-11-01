@@ -7,7 +7,7 @@ msgstr ""
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: i18n/en.yaml:0
@@ -66,8 +66,8 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"rpm-ostree is a hybrid image/package system. It combines libostree as a base"
-" immutable image format, and accepts installing RPM on both the client and "
+"rpm-ostree is a hybrid image/package system. It combines libostree as a base "
+"immutable image format, and accepts installing RPM on both the client and "
 "server side, sharing code with the dnf project."
 msgstr ""
 
@@ -198,8 +198,8 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f34/install-"
-"guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
+"https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -234,8 +234,8 @@ msgid ""
 "participating in U.S. export transactions by any federal agency of the U.S. "
 "government; or (c) for use in connection with the design, development or "
 "production of nuclear, chemical or biological weapons, or rocket systems, "
-"space launch vehicles, or sounding rockets, or unmanned air vehicle systems."
-" You may not download Fedora software or technical information if you are "
+"space launch vehicles, or sounding rockets, or unmanned air vehicle systems. "
+"You may not download Fedora software or technical information if you are "
 "located in one of these countries or otherwise subject to these "
 "restrictions. You may not provide Fedora software or technical information "
 "to individuals or entities located in one of these countries or otherwise "
