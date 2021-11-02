@@ -1,22 +1,26 @@
-#
+# Francois Andrieu <darknao@drkn.ninja>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-11-02 15:05+0000\n"
+"Last-Translator: Francois Andrieu <darknao@drkn.ninja>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"fedora-kde/kinoite-site/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8\n"
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite"
-msgstr ""
+msgstr "Fedora Kinoite"
 
 #: i18n/en.yaml:0
 msgid "The Next Generation Operating System"
-msgstr ""
+msgstr "Le système d'exploitation de nouvelle génération"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -24,10 +28,13 @@ msgid ""
 "video, and get productive at work without having to worry about breaking "
 "your system."
 msgstr ""
+"Naviguez sur internet, restez en contact avec vos amis, gérez vos fichiers, "
+"profitez de vos musiques et films, et soyez productif dans votre travail "
+"sans vous soucier de rendre votre système inutilisable."
 
 #: i18n/en.yaml:0
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
@@ -35,7 +42,7 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -43,26 +50,31 @@ msgid ""
 "clouds, and containers that enables software developers and community "
 "members to build tailored solutions for their users."
 msgstr ""
+"Fedora crée une plateforme innovante, libre et gratuite à installer sur un "
+"matériel physique, utiliser dans un cloud ou comme conteneur et qui permet "
+"aux développeurs logiciels et aux membres de la communauté de fabriquer des "
+"solutions adaptées à leurs utilisateurs."
 
 #: i18n/en.yaml:0
 msgid "Plasma desktop"
-msgstr ""
+msgstr "Environnement Plasma"
 
 #: i18n/en.yaml:0
 msgid "Modern and modular desktop built with love by the KDE Community"
 msgstr ""
+"Environnement moderne et modulaire construit avec amour par la communauté KDE"
 
 #: i18n/en.yaml:0
 msgid "Applications as Flatpaks"
-msgstr ""
+msgstr "Applications Flatpaks"
 
 #: i18n/en.yaml:0
 msgid "Download hundreds of open-source applications thanks to Flatpak"
-msgstr ""
+msgstr "Téléchargez des centaines d'applications open-source grâce à Flatpak"
 
 #: i18n/en.yaml:0
 msgid "rpm-ostree"
-msgstr ""
+msgstr "rpm-ostree"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -73,7 +85,7 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -81,20 +93,25 @@ msgid ""
 "running Open Container Initiative (OCI) containers and container images on "
 "your Linux System."
 msgstr ""
+"Podman est un moteur de conteneurs ne nécessitant pas de démon, pour le "
+"développement la gestion et d'exécution de conteneurs Open Container "
+"Initiative (OCI) et images de conteneurs sur votre système Linux."
 
 #: i18n/en.yaml:0
 msgid "Related Projects"
-msgstr ""
+msgstr "Projets liés"
 
 #: i18n/en.yaml:0
 msgid ""
 "Those other projects are based on the same technologies as Fedora Kinoite "
 "(Fedora Linux, rpm-ostree, podman) but are focused on different use cases:"
 msgstr ""
+"Ces autres projets utilisent les mêmes technologies que Fedora Kinoite ("
+"Fedora Linux, rpm-ostree, podman) mais sont destinés à d'autres usages :"
 
 #: i18n/en.yaml:0
 msgid "Fedora Silverblue"
-msgstr ""
+msgstr "Fedora Silverblue"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -104,7 +121,7 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Fedora CoreOS"
-msgstr ""
+msgstr "Fedora CoreOS"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -115,7 +132,7 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Fedora IoT"
-msgstr ""
+msgstr "Fedora IoT"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -126,26 +143,28 @@ msgstr ""
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
 msgstr ""
+"Fedora Kinoite est disponible pour les architectures x86_64, AArch64 et "
+"POWER8."
 
 #: i18n/en.yaml:0
 msgid "Download for x86_64"
-msgstr ""
+msgstr "Téléchargement pour x86_64"
 
 #: i18n/en.yaml:0
 msgid "Download for AArch64"
-msgstr ""
+msgstr "Téléchargement pour AArch64"
 
 #: i18n/en.yaml:0
 msgid "Download for ppc64le"
-msgstr ""
+msgstr "Téléchargement pour ppc64le"
 
 #: i18n/en.yaml:0
 msgid "Verify your download"
-msgstr ""
+msgstr "Vérifiez votre téléchargement"
 
 #: i18n/en.yaml:0
 msgid "Warning! Pre-release (Beta) version!"
-msgstr ""
+msgstr "Attention ! Ceci est une pré-version (Beta) !"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -156,21 +175,23 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Not sure how to use this file?"
-msgstr ""
+msgstr "Vous ne savez pas comment utiliser ce fichier ?"
 
 #: i18n/en.yaml:0
 msgid "Learn here."
-msgstr ""
+msgstr "Découvrez ici."
 
 #: i18n/en.yaml:0
 msgid ""
 "https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
 "installation-image/index.html"
 msgstr ""
+"https://docs.fedoraproject.org/fr/quick-docs/"
+"creating-and-using-a-live-installation-image/index.html"
 
 #: i18n/en.yaml:0
 msgid "On Windows or macOS? Try Fedora Media Writer."
-msgstr ""
+msgstr "Sur Windows ou macOS ? Essayez Fedora Media Writer."
 
 #: i18n/en.yaml:0
 msgid ""
@@ -179,48 +200,57 @@ msgid ""
 "Writer. Once Fedora Media Writer is installed, use it to flash your drive "
 "using the file you have downloaded above."
 msgstr ""
+"Avec Fedora Media Writer, essayer Fedora Kinoite est plus simple que jamais. "
+"Vous avez juste besoin d’une clé USB de 4 Go et Fedora Media Writer. Une "
+"fois installé, utiliser-le pour configurer votre clé avec le fichier que "
+"vous aurez téléchargé ci-dessus."
 
 #: i18n/en.yaml:0
 msgid "Download for:"
-msgstr ""
+msgstr "Téléchargement pour :"
 
 #: i18n/en.yaml:0
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: i18n/en.yaml:0
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: i18n/en.yaml:0
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: i18n/en.yaml:0
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
+"https://docs.fedoraproject.org/fr/fedora/f34/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: i18n/en.yaml:0
 msgid "We take security seriously."
-msgstr ""
+msgstr "Nous prenons au sérieux la sécurité."
 
 #: i18n/en.yaml:0
 msgid ""
 "Once you have downloaded an image, be sure to verify it for both security "
 "and integrity."
 msgstr ""
+"Une fois une image téléchargée, vérifiez son intégrité pour votre sécurité."
 
 #: i18n/en.yaml:0
 msgid "Verify your download."
-msgstr ""
+msgstr "Vérifiez votre téléchargement."
 
 #: i18n/en.yaml:0
 msgid ""
 "By clicking on and downloading Fedora, you agree to comply with the "
 "following terms and conditions."
 msgstr ""
+"En cliquant et en téléchargeant Fedora, vous acceptez de respecter les "
+"modalités suivantes."
 
 #: i18n/en.yaml:0
 msgid ""
@@ -243,12 +273,34 @@ msgid ""
 "foreign law requirements applicable to the import, export and use of Fedora "
 "software and technical information."
 msgstr ""
+"En téléchargeant le logiciel Fedora, vous reconnaissez avoir compris tout ce "
+"qui suit : le logiciel Fedora et les informations techniques peuvent être "
+"assujettis à l’U.S. Export Administration Regulations (EAR) et d’autres lois "
+"américaines et étrangères et ne peuvent pas être exportés, réexportés ou "
+"transférés (a) dans les pays listés dans le groupe de pays E:1 dans le "
+"supplément n° 1 à 740 de l’EAR (actuellement, Cuba, l’Iran, la Corée du "
+"Nord, le Soudan et la Syrie) ; (b) dans les destinations interdites ou à un "
+"utilisateur final qui s’est vu interdit de participer aux transactions d’"
+"export américaines par une agence fédérale du gouvernement des États-Unis ; "
+"ou (c) pour un usage en rapport avec la conception, la fabrication ou la "
+"production d’armes nucléaires, chimiques ou biologiques, de systèmes de "
+"missiles, d’engins de lancement spatial, de missiles soniques, ou de "
+"systèmes de véhicules aériens sans pilotes. Vous ne pourrez pas télécharger "
+"le logiciel Fedora ou ses informations techniques si vous vous situez dans "
+"un de ces pays ou êtes sujets à ces restrictions. Vous ne pourrez pas "
+"fournir le logiciel Fedora ou ses informations techniques à des individus ou "
+"des entités qui se situent dans ces pays ou sujettes à ces restrictions. "
+"Vous êtes aussi responsable du respect des lois étrangères qui s’appliquent "
+"à l’import, l’export et l’utilisation du logiciel Fedora et ses informations "
+"techniques."
 
 #: i18n/en.yaml:0
 msgid "Languages"
-msgstr ""
+msgstr "Langages"
 
 #: i18n/en.yaml:0
 msgid ""
 "Design made by [Carl Schwan](https://carlschwan.eu) © 2021 Fedora Project"
 msgstr ""
+"Conception réalisée par [Carl Schwan](https://carlschwan.eu) © 2021 Fedora "
+"Project"
