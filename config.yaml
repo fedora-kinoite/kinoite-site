@@ -8,7 +8,7 @@ enableGitInfo: true
 enableRobotsTXT: true
 i18n:
   content:
-    kinoite-fedoraproject-org:
+    default:
       files:
       - content/_index.md
       - content/get-involved.md
