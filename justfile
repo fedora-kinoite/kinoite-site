@@ -7,7 +7,7 @@ date := `date --utc --iso-8601=min`
 
 all: serve
 
-serve:
+serve: clean lang
 	hugo serve
 
 clean:
