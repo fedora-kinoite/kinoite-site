@@ -26,6 +26,16 @@ languages:
     languageCode: en
     languageName: English
     weight: 1
+  fr:
+    contentDir: content-trans/fr
+    languageCode: fr
+    languageName: Français
+    weight: 2
+  uk:
+    contentDir: content-trans/uk
+    languageCode: uk
+    languageName: Українська
+    weight: 2
 markup:
   goldmark:
     renderer:
@@ -45,7 +55,8 @@ outputs:
   section:
   - HTML
 params:
-  description: Fedora Kinoite is an immutable desktop operating system featuring the KDE Plasma desktop
+  description: Fedora Kinoite is an immutable desktop operating system featuring the
+    KDE Plasma desktop
   images:
   - /thumbnail.png
   title: Fedora Kinoite
