@@ -29,6 +29,14 @@ msgid "Download"
 msgstr ""
 
 #: i18n/en.yaml:0
+msgid "Get Involved"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Documentation"
+msgstr ""
+
+#: i18n/en.yaml:0
 msgid "Built on top of the best"
 msgstr ""
 

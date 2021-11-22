@@ -25,17 +25,6 @@ languages:
     contentDir: content/
     languageCode: en
     languageName: English
-    menu:
-      main:
-      - name: Download
-        url: /download
-        weight: 1
-      - name: Get Involved
-        url: /get-involved
-        weight: 2
-      - name: Docs
-        url: https://docs.fedoraproject.org/en-US/fedora-kinoite/
-        weight: 3
     weight: 1
 markup:
   goldmark:

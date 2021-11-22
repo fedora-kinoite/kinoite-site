@@ -14,26 +14,15 @@
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-end">
-      {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-          <li class="navbar-item has-dropdown is-hoverable {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-            <a class="navbar-link" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              {{ .Name }}
-            </a>
-            <div class="navbar-dropdown">
-              {{ range .Children }}
-                <a class="navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
-                   href="{{ .URL }}">{{ .Name }}
-                </a>
-              {{ end }}
-            </div>
-          </li>
-        {{ else }}
-          <a class="navbar-item" href="{{ .URL }}">
-            {{ .Name }}
-          </a>
-        {{ end }}
-      {{ end }}
+      <li class="navbar-item has-dropdown is-hoverable">
+         <a class="navbar-item" href="download">{{ i18n "download" }}</a>
+      </li>
+      <li class="navbar-item has-dropdown is-hoverable">
+         <a class="navbar-item" href="get-involved">{{ i18n "get-involved" }}</a>
+      </li>
+      <li class="navbar-item has-dropdown is-hoverable">
+         <a class="navbar-item" href="https://docs.fedoraproject.org/en-US/fedora-kinoite/">{{ i18n "documentation" }}</a>
+      </li>
       <div class="navbar-item dropdown is-hoverable">
         <div class="dropdown-trigger">
           <button class="button" aria-haspopup="true" aria-controls="dropdown-languages">

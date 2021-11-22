@@ -6,6 +6,10 @@ description:
   other: "Surf the web, keep in touch with friends, manage files, enjoy music and video, and get productive at work without having to worry about breaking your system."
 download:
   other: "Download"
+get-involved:
+  other: "Get Involved"
+documentation:
+  other: "Documentation"
 
 built-on:
   other: "Built on top of the best"
