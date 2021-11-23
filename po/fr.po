@@ -1,10 +1,11 @@
 # Francois Andrieu <darknao@drkn.ninja>, 2021.
+# Timothée Ravier <tim@siosm.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2021-11-02 15:05+0000\n"
-"Last-Translator: Francois Andrieu <darknao@drkn.ninja>\n"
+"PO-Revision-Date: 2021-11-23 12:06+0000\n"
+"Last-Translator: Timothée Ravier <tim@siosm.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "fedora-kde/kinoite-site/fr/>\n"
 "Language: fr\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9\n"
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite"
@@ -38,7 +39,7 @@ msgstr "Télécharger"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
-msgstr ""
+msgstr "Construit sur la base des meilleurs"
 
 #: i18n/en.yaml:0
 msgid "Fedora"
@@ -82,6 +83,10 @@ msgid ""
 "immutable image format, and accepts installing RPM on both the client and "
 "server side, sharing code with the dnf project."
 msgstr ""
+"rpm-ostree est un gestionnaire de système hybride (image et paquets). Il "
+"combine libostree comme format de base pour obtenir des images immuables et "
+"rend possible l'installation de paquets RPM à la fois côté client et côté "
+"serveur, en partageant du code avec le projet dnf."
 
 #: i18n/en.yaml:0
 msgid "Podman"
@@ -118,6 +123,8 @@ msgid ""
 "Fedora Silverblue is an immutable desktop operating system featuring the "
 "GNOME desktop and applications."
 msgstr ""
+"Fedora Silverblue est un système d'exploitation immuable qui inclus "
+"l'environement de bureau GNOME et ses applications."
 
 #: i18n/en.yaml:0
 msgid "Fedora CoreOS"
@@ -129,6 +136,10 @@ msgid ""
 "focused operating system, designed for clusters but also operable "
 "standalone, optimized for Kubernetes but also great without it."
 msgstr ""
+"Fedora CoreOS est un système d'exploitation avec mises à jours automatiques, "
+"minimal, monolithique, centré sur les conteneurs, conçu pour les clusteurs "
+"mais aussi fonctionnel en indépendant, optimisé pour Kubernetes mais aussi "
+"excellent sans."
 
 #: i18n/en.yaml:0
 msgid "Fedora IoT"
@@ -139,6 +150,9 @@ msgid ""
 "Fedora IoT provides a strong foundation for IoT ecosystems: a project at "
 "home, industrial gateways, smart cities or analytics with AI/ML."
 msgstr ""
+"Fedora IoT fournit une base solide pour les écosystèmes IoT : un projet à la "
+"maison, des passerelles industrielles, des villes intelligentes ou des "
+"analyses avec l'IA/ML."
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
@@ -172,6 +186,9 @@ msgid ""
 "been made yet. You may encounter bugs and you are welcomed to report them. "
 "Use at your own risk!"
 msgstr ""
+"Cette version de Fedora Kinoite est toujours en version bêta et aucune "
+"version stable n'a encore été produite. Vous pouvez rencontrer des bogues et "
+"vous êtes invités à les signaler. Utilisez-la à vos risques et périls !"
 
 #: i18n/en.yaml:0
 msgid "Not sure how to use this file?"
