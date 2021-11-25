@@ -1,5 +1,6 @@
+/.hugo_cache/
+/content-trans/
 /i18n/*.yaml
 /locale/
 /public/
 /resources/
-/content-trans/

@@ -8,7 +8,7 @@ date := `date --utc --iso-8601=min`
 all: serve
 
 serve: clean lang
-	hugo serve
+	HUGO_CACHEDIR="${PWD}/.hugo_cache/" hugo serve
 
 clean:
 	rm -rf ./public
@@ -20,11 +20,11 @@ lang:
 	hugoi18n generate
 
 staging: clean lang
-	hugo --minify --config config.yaml,config_staging.yaml
+	HUGO_CACHEDIR="${PWD}/.hugo_cache/" hugo --minify --config config.yaml,config_staging.yaml
 	rsync --archive --human-readable --delete-after --verbose public/ ../{{site}}-staging/public/
 
 production: clean lang
-	hugo --minify
+	HUGO_CACHEDIR="${PWD}/.hugo_cache/" hugo --minify
 	rsync --archive --human-readable --delete-after --verbose public/ ../{{site}}-production/public/
 
 commit-stg: staging
