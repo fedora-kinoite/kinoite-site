@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2021-12-06 22:07+0000\n"
+"PO-Revision-Date: 2021-12-07 22:16+0000\n"
 "Last-Translator: Taras Panchenko <top39@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "fedora-kde/kinoite-site/uk/>\n"
@@ -40,7 +40,7 @@ msgstr "Отримання"
 
 #: i18n/en.yaml:0
 msgid "Get Involved"
-msgstr "Участь у проєкті"
+msgstr "Долучитись"
 
 #: i18n/en.yaml:0
 msgid "Documentation"
