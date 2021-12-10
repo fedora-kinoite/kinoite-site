@@ -37,6 +37,10 @@ msgid "Documentation"
 msgstr ""
 
 #: i18n/en.yaml:0
+msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
+msgstr ""
+
+#: i18n/en.yaml:0
 msgid "Built on top of the best"
 msgstr ""
 

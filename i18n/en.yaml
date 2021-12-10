@@ -10,6 +10,8 @@ get-involved:
   other: "Get Involved"
 documentation:
   other: "Documentation"
+documentation-link:
+  other: "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
 
 built-on:
   other: "Built on top of the best"
