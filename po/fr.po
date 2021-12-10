@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2021-11-23 12:06+0000\n"
+"PO-Revision-Date: 2021-12-10 11:27+0000\n"
 "Last-Translator: Timothée Ravier <tim@siosm.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/fedora-"
 "kde/kinoite-site/fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite"
@@ -39,11 +39,11 @@ msgstr "Télécharger"
 
 #: i18n/en.yaml:0
 msgid "Get Involved"
-msgstr ""
+msgstr "S’impliquer"
 
 #: i18n/en.yaml:0
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
@@ -332,7 +332,7 @@ msgstr ""
 
 #: content/get-involved.md:0
 msgid "Get Involved!"
-msgstr ""
+msgstr "S’impliquer !"
 
 #: content/get-involved.md:7
 msgid ""
@@ -340,12 +340,18 @@ msgid ""
 "and KDE team, you will be part of an international community working to "
 "deliver a stunning Free Software computing experience."
 msgstr ""
+"Fedora Kinoite est maintenue avec amour par des volontaires. En rejoignant "
+"les équipes de Fedora et KDE, vous prendrez part à une communauté "
+"internationale qui travaille à la réalisation d'une expérience d'exception à "
+"l'aide de logiciels libres."
 
 #: content/get-involved.md:10
 msgid ""
 "This page will give you a brief introduction to things everyone in KDE "
 "should know, and help you get started with contributing."
 msgstr ""
+"Cette page est une brève introduction aux éléments à savoir autour de KDE et "
+"vous aidera a démarrer pour contribuer."
 
 #: content/get-involved.md:14
 msgid ""
@@ -353,6 +359,10 @@ msgid ""
 "Silverblue. It is maintained by the [Fedora KDE Special Interest Group (SIG)]"
 "[SIG] and is the fruit of collaboration between the Fedora and KDE community."
 msgstr ""
+"Kinoite est basé sur les même technologies utilisées par Fedora CoreOS et "
+"Fedora Silverblue. Le système est maintenu par le [groupe centré sur KDE "
+"dans Fedora (Fedora KDE SIG)][SIG] et est le résultat de la collaboration "
+"entre les communauté Fedora et KDE."
 
 #: content/get-involved.md:17
 msgid ""
@@ -360,10 +370,13 @@ msgid ""
 "channel][Matrix] or IRC room [#fedora-kde][IRC]. Feel free to ask us any "
 "questions you may have."
 msgstr ""
+"La première étape pour contribuer à Kinoite est de nous rejoindre sur notre "
+"[canal Matrix][Matrix] ou notre salon IRC [#fedora-kde][IRC]. sentez-vous "
+"libre de poser toutes les questions que vous pouvez avoir."
 
 #: content/get-involved.md:19
 msgid "Get Involved in Fedora"
-msgstr ""
+msgstr "S'impliquer dans Fedora"
 
 #: content/get-involved.md:23
 msgid ""
@@ -372,16 +385,23 @@ msgid ""
 "information on how to get involved on the generic [Fedora get involved page]"
 "[Join]."
 msgstr ""
+"La communauté Fedora travaille à packager tous les composants individuels "
+"permettant de créer une expérience optimale pour l'utilisateur. Vous pouvez "
+"plus d'information sur comment s'impliquer dans le projet Fedora sur la "
+"[page générale pour s'impliquer][Join]."
 
 #: content/get-involved.md:25
 msgid "Get Involved in KDE"
-msgstr ""
+msgstr "S'impliquer dans KDE"
 
 #: content/get-involved.md:28
 msgid ""
 "The KDE community creates the software and they also have a [get involved "
 "page][Involved] with a lot of helpful information on how to help."
 msgstr ""
+"La communauté KDE créé les logiciels à la base de Kinoite et ils disposent "
+"de leur propre page [pour démarrer][Involved] qui contient une grande "
+"quantité d'informations utiles pour commencer à contribuer."
 
 #: content/get-involved.md:34
 msgid ""
@@ -390,9 +410,23 @@ msgid ""
 "https://fedoraproject.org/wiki/Join [Involved]: https://community.kde.org/"
 "Get_Involved"
 msgstr ""
+"[SIG]: https://fedoraproject.org/wiki/SIGs/KDE [Matrix]: https://matrix.to/#/"
+"#fedora-kde:matrix.org [IRC]: irc://irc.libera.chat/fedora-kde [Join]: "
+"https://fedoraproject.org/wiki/Join [Involved]: https://community.kde.org/"
+"Get_Involved"
 
 #: content/download/_index.md:0
-#, fuzzy
-#| msgid "Fedora Kinoite"
 msgid "Download Fedora Kinoite"
-msgstr "Fedora Kinoite"
+msgstr "Télécharger Fedora Kinoite"
+
+#: i18n/en.yaml:0
+msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
+msgstr "https://docs.fedoraproject.org/fr/fedora-kinoite/"
+
+#: i18n/en.yaml:0
+msgid ""
+"https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
+msgstr ""
+"https://docs.fedoraproject.org/fr/fedora/f35/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
