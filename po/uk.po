@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"PO-Revision-Date: 2021-12-07 22:16+0000\n"
-"Last-Translator: Taras Panchenko <top39@ukr.net>\n"
+"PO-Revision-Date: 2021-12-10 20:08+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "fedora-kde/kinoite-site/uk/>\n"
 "Language: uk\n"
@@ -47,14 +47,8 @@ msgid "Documentation"
 msgstr "Документація"
 
 #: i18n/en.yaml:0
-#, fuzzy
-#| msgid ""
-#| "https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
-#| "installation-image/index.html"
 msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
-msgstr ""
-"https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
-"installation-image/index.html"
+msgstr "https://docs.fedoraproject.org/uk/fedora-kinoite/"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
@@ -256,15 +250,11 @@ msgid "Linux"
 msgstr "Linux"
 
 #: i18n/en.yaml:0
-#, fuzzy
-#| msgid ""
-#| "https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
-#| "Preparing_for_Installation/#sect-preparing-boot-media"
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
-"https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+"https://docs.fedoraproject.org/uk/fedora/f35/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: i18n/en.yaml:0
