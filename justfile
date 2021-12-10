@@ -15,6 +15,8 @@ clean:
 
 lang:
 	rm -rf ./locale && mkdir locale
+	rm -rf ./content-trans && mkdir content-trans
+	cp -a content content-trans/fr && cp -a content content-trans/uk
 	hugoi18n extract po/{{po_name}}.pot
 	hugoi18n compile po
 	hugoi18n generate
