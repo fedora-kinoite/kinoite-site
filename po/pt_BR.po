@@ -38,6 +38,10 @@ msgid "Documentation"
 msgstr ""
 
 #: i18n/en.yaml:0
+msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
+msgstr ""
+
+#: i18n/en.yaml:0
 msgid "Built on top of the best"
 msgstr ""
 
@@ -206,7 +210,7 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+"https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 

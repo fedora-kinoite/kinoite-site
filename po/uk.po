@@ -47,6 +47,16 @@ msgid "Documentation"
 msgstr "Документація"
 
 #: i18n/en.yaml:0
+#, fuzzy
+#| msgid ""
+#| "https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
+#| "installation-image/index.html"
+msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
+msgstr ""
+"https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
+"installation-image/index.html"
+
+#: i18n/en.yaml:0
 msgid "Built on top of the best"
 msgstr "Побудовано на найкращій основі"
 
@@ -246,8 +256,12 @@ msgid "Linux"
 msgstr "Linux"
 
 #: i18n/en.yaml:0
+#, fuzzy
+#| msgid ""
+#| "https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+#| "Preparing_for_Installation/#sect-preparing-boot-media"
 msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+"https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 "https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
@@ -366,9 +380,9 @@ msgid ""
 "channel][Matrix] or IRC room [#fedora-kde][IRC]. Feel free to ask us any "
 "questions you may have."
 msgstr ""
-"Першим кроком участі у проєкті Kinoite є долучення до нашого [каналу "
-"Matrix][Matrix] або кімнати IRC [#fedora-kde][IRC]. Не соромтеся ставити нам "
-"будь-які питання."
+"Першим кроком участі у проєкті Kinoite є долучення до нашого [каналу Matrix]"
+"[Matrix] або кімнати IRC [#fedora-kde][IRC]. Не соромтеся ставити нам будь-"
+"які питання."
 
 #: content/get-involved.md:19
 msgid "Get Involved in Fedora"
@@ -406,8 +420,8 @@ msgid ""
 "https://fedoraproject.org/wiki/Join [Involved]: https://community.kde.org/"
 "Get_Involved"
 msgstr ""
-"[SIG]: https://fedoraproject.org/wiki/SIGs/KDE [Matrix]: https://matrix.to/"
-"#/#fedora-kde:matrix.org [IRC]: irc://irc.libera.chat/fedora-kde [Join]: "
+"[SIG]: https://fedoraproject.org/wiki/SIGs/KDE [Matrix]: https://matrix.to/#/"
+"#fedora-kde:matrix.org [IRC]: irc://irc.libera.chat/fedora-kde [Join]: "
 "https://fedoraproject.org/wiki/Join [Involved]: https://community.kde.org/"
 "Get_Involved"
 
