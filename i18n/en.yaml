@@ -87,7 +87,7 @@ fedora-media-writer.macos:
 fedora-media-writer.linux:
   other: "Linux"
 fedora-media-writer.url:
-  other: "https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
+  other: "https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
 
 security.seriously:
   other: "We take security seriously."

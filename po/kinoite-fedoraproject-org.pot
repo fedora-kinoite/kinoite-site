@@ -205,7 +205,7 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f34/install-"
+"https://docs.fedoraproject.org/en-US/fedora/f35/install-"
 "guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 
