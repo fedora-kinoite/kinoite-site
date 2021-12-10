@@ -1,7 +1,7 @@
 <nav class="navbar container is-transparent" role="navigation" aria-label="main navigation">
   {{ $currentPage := . }}
   <div class="navbar-brand">
-    <a class="navbar-item" href="/">
+    <a class="navbar-item" href="{{ "/" | relLangURL }}">
       <img src="/img/fedora_logo.svg" width="200" height="50">
     </a>
 
@@ -15,10 +15,10 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-end">
       <li class="navbar-item has-dropdown is-hoverable">
-         <a class="navbar-item" href="download">{{ i18n "download" }}</a>
+        <a class="navbar-item" href="{{ "download" | relLangURL }}">{{ i18n "download" }}</a>
       </li>
       <li class="navbar-item has-dropdown is-hoverable">
-         <a class="navbar-item" href="get-involved">{{ i18n "get-involved" }}</a>
+        <a class="navbar-item" href="{{ "get-involved" | relLangURL }}">{{ i18n "get-involved" }}</a>
       </li>
       <li class="navbar-item has-dropdown is-hoverable">
          <a class="navbar-item" href="{{ i18n "documentation-link" }}">{{ i18n "documentation" }}</a>
