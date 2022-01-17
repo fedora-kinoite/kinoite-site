@@ -21,6 +21,11 @@ i18n:
   others:
   - strings
 languages:
+  de:
+    contentDir: content-trans/de
+    languageCode: de
+    languageName: Deutsch
+    weight: 2
   en:
     contentDir: content/
     languageCode: en
