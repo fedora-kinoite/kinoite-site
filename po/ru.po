@@ -3,20 +3,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-02-09 10:16+0000\n"
+"Last-Translator: Nikita Epifanov <nikgreens@protonmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/"
+"fedora-kde/kinoite-site/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite"
-msgstr ""
+msgstr "Fedora Kinoite"
 
 #: i18n/en.yaml:0
 msgid "The Next Generation Operating System"
-msgstr ""
+msgstr "Операционная система следующего поколения"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -24,30 +29,33 @@ msgid ""
 "video, and get productive at work without having to worry about breaking "
 "your system."
 msgstr ""
+"Работайте в Интернете, поддерживайте связь с друзьями, управляйте файлами, "
+"наслаждайтесь музыкой и видео и продуктивно работайте, не беспокоясь о "
+"поломке системы."
 
 #: i18n/en.yaml:0
 msgid "Download"
-msgstr ""
+msgstr "Загрузка"
 
 #: i18n/en.yaml:0
 msgid "Get Involved"
-msgstr ""
+msgstr "Присоединиться"
 
 #: i18n/en.yaml:0
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
 #: i18n/en.yaml:0
 msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
-msgstr ""
+msgstr "https://docs.fedoraproject.org/ru/fedora-kinoite/"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
-msgstr ""
+msgstr "Построен на лучшей основе"
 
 #: i18n/en.yaml:0
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -55,26 +63,30 @@ msgid ""
 "clouds, and containers that enables software developers and community "
 "members to build tailored solutions for their users."
 msgstr ""
+"Fedora создает инновационную, свободную платформу с открытым исходным кодом "
+"для рабочих станций, облаков и контейнеров, которая позволяет разработчикам "
+"и участникам сообщества создавать точно выверенные решения для пользователей."
 
 #: i18n/en.yaml:0
 msgid "Plasma desktop"
-msgstr ""
+msgstr "Рабочий стол Plasma"
 
 #: i18n/en.yaml:0
 msgid "Modern and modular desktop built with love by the KDE Community"
 msgstr ""
+"Современный и модульный рабочий стол, созданный с любовью сообществом KDE"
 
 #: i18n/en.yaml:0
 msgid "Applications as Flatpaks"
-msgstr ""
+msgstr "Программы в формате Flatpak"
 
 #: i18n/en.yaml:0
 msgid "Download hundreds of open-source applications thanks to Flatpak"
-msgstr ""
+msgstr "Загружайте сотни приложений с открытым исходным кодом благодаря Flatpak"
 
 #: i18n/en.yaml:0
 msgid "rpm-ostree"
-msgstr ""
+msgstr "rpm-ostree"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -82,10 +94,14 @@ msgid ""
 " immutable image format, and accepts installing RPM on both the client and "
 "server side, sharing code with the dnf project."
 msgstr ""
+"rpm-ostree - это гибридная система образов/пакетов. Она сочетает в себе "
+"libostree в качестве базового неизменяемого формата образа и позволяет "
+"устанавливать RPM как на стороне клиента, так и на стороне сервера, разделяя "
+"код с проектом dnf."
 
 #: i18n/en.yaml:0
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -93,30 +109,38 @@ msgid ""
 "running Open Container Initiative (OCI) containers and container images on "
 "your Linux System."
 msgstr ""
+"Podman - это контейнерный движок без демонов для разработки, управления и "
+"запуска контейнеров и контейнерных образов Open Container Initiative (OCI) в "
+"вашей системе Linux."
 
 #: i18n/en.yaml:0
 msgid "Related Projects"
-msgstr ""
+msgstr "Связанные проекты"
 
 #: i18n/en.yaml:0
 msgid ""
 "Those other projects are based on the same technologies as Fedora Kinoite "
 "(Fedora Linux, rpm-ostree, podman) but are focused on different use cases:"
 msgstr ""
+"Эти другие проекты основаны на тех же технологиях, что и Fedora Kinoite ("
+"Fedora Linux, rpm-ostree, podman), но ориентированы на другие случаи "
+"использования:"
 
 #: i18n/en.yaml:0
 msgid "Fedora Silverblue"
-msgstr ""
+msgstr "Fedora Silverblue"
 
 #: i18n/en.yaml:0
 msgid ""
 "Fedora Silverblue is an immutable desktop operating system featuring the "
 "GNOME desktop and applications."
 msgstr ""
+"Fedora Silverblue - это неизменяемая настольная операционная система с "
+"рабочим столом и программами GNOME."
 
 #: i18n/en.yaml:0
 msgid "Fedora CoreOS"
-msgstr ""
+msgstr "Fedora CoreOS"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -124,40 +148,46 @@ msgid ""
 "focused operating system, designed for clusters but also operable "
 "standalone, optimized for Kubernetes but also great without it."
 msgstr ""
+"Fedora CoreOS - это автоматически обновляемая, минимальная, монолитная, "
+"ориентированная на контейнеры операционная система, предназначенная для "
+"кластеров, но работающая и автономно, оптимизированная для Kubernetes, но "
+"прекрасно работающая и без него."
 
 #: i18n/en.yaml:0
 msgid "Fedora IoT"
-msgstr ""
+msgstr "Fedora IoT"
 
 #: i18n/en.yaml:0
 msgid ""
 "Fedora IoT provides a strong foundation for IoT ecosystems: a project at "
 "home, industrial gateways, smart cities or analytics with AI/ML."
 msgstr ""
+"Fedora IoT обеспечивает прочную основу для экосистем интернет вещей: проект "
+"дома, промышленные шлюзы, умные города или аналитика с AI/ML."
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
-msgstr ""
+msgstr "Fedora Kinoite доступна для платформ x86_64, AArch64 и POWER8."
 
 #: i18n/en.yaml:0
 msgid "Download for x86_64"
-msgstr ""
+msgstr "Загрузить для x86_64"
 
 #: i18n/en.yaml:0
 msgid "Download for AArch64"
-msgstr ""
+msgstr "Загрузить для AArch64"
 
 #: i18n/en.yaml:0
 msgid "Download for ppc64le"
-msgstr ""
+msgstr "Загрузить для ppc64le"
 
 #: i18n/en.yaml:0
 msgid "Verify your download"
-msgstr ""
+msgstr "Проверьте загруженный образ"
 
 #: i18n/en.yaml:0
 msgid "Warning! Pre-release (Beta) version!"
-msgstr ""
+msgstr "Внимание! Предварительная (бета) версия!"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -165,24 +195,29 @@ msgid ""
 "been made yet. You may encounter bugs and you are welcomed to report them. "
 "Use at your own risk!"
 msgstr ""
+"Эта версия Fedora Kinoite все еще находится в стадии бета-версии, и "
+"стабильный релиз еще не выпущен. Вы можете столкнуться с ошибками, и мы "
+"просим вас сообщать о них. Используйте на свой страх и риск!"
 
 #: i18n/en.yaml:0
 msgid "Not sure how to use this file?"
-msgstr ""
+msgstr "Не знаете, как использовать этот файл?"
 
 #: i18n/en.yaml:0
 msgid "Learn here."
-msgstr ""
+msgstr "Узнайте про это тут."
 
 #: i18n/en.yaml:0
 msgid ""
 "https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
 "installation-image/index.html"
 msgstr ""
+"https://docs.fedoraproject.org/ru/quick-docs/"
+"creating-and-using-a-live-installation-image/index.html"
 
 #: i18n/en.yaml:0
 msgid "On Windows or macOS? Try Fedora Media Writer."
-msgstr ""
+msgstr "Работаете на Windows или macOS? Попробуйте Fedora Media Writer."
 
 #: i18n/en.yaml:0
 msgid ""
@@ -191,48 +226,56 @@ msgid ""
 "Writer. Once Fedora Media Writer is installed, use it to flash your drive "
 "using the file you have downloaded above."
 msgstr ""
+"Начните работу с Fedora Media Writer, с помощью которого очень легко "
+"попробовать Fedora Kinoite. Все, что вам нужно, это флэш-накопитель емкостью "
+"4 Гб и программа Fedora Media Writer. После установки Fedora Media Writer "
+"воспользуйтесь им для записи системы на флешку с помощью файла, который вы "
+"скачали выше."
 
 #: i18n/en.yaml:0
 msgid "Download for:"
-msgstr ""
+msgstr "Загрузить для:"
 
 #: i18n/en.yaml:0
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: i18n/en.yaml:0
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: i18n/en.yaml:0
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: i18n/en.yaml:0
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f35/install-"
 "guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
+"https://docs.fedoraproject.org/ru/fedora/f35/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: i18n/en.yaml:0
 msgid "We take security seriously."
-msgstr ""
+msgstr "Мы серьезно относимся к безопасности."
 
 #: i18n/en.yaml:0
 msgid ""
 "Once you have downloaded an image, be sure to verify it for both security "
 "and integrity."
 msgstr ""
+"После загрузки образа обязательно проверьте его безопасность и целостность."
 
 #: i18n/en.yaml:0
 msgid "Verify your download."
-msgstr ""
+msgstr "Проверить загруженный образ."
 
 #: i18n/en.yaml:0
 msgid ""
 "By clicking on and downloading Fedora, you agree to comply with the "
 "following terms and conditions."
-msgstr ""
+msgstr "Нажимая и загружая Fedora, вы соглашаетесь соблюдать следующие условия."
 
 #: i18n/en.yaml:0
 msgid ""
@@ -255,19 +298,42 @@ msgid ""
 "foreign law requirements applicable to the import, export and use of Fedora "
 "software and technical information."
 msgstr ""
+"При получении программного обеспечения Fedora вы подтверждаете, что "
+"ознакомлены со следующими условиями: программное обеспечение и технические "
+"сведения Fedora могут быть предметом экспортных ограничений США (EAR) и "
+"ограничений, установленных другим законодательством США и других стран. Его "
+"нельзя экспортировать, повторно экспортировать и передавать (а) в любую "
+"страну из списка групп стран E:1 в приложении №1 к части 740 EAR (в текущей "
+"версии, Кубе, Ирану, Северной Корее, Судану и Сирии); (б) к любому "
+"запрещенному месту или к любому конечному потребителю, которому запрещено "
+"участвовать в экспортных операциях США любым федеральным агентством "
+"правительства США; или (в) для использования в связи с проектированием, "
+"разработкой или созданием ядерного, химического или биологического оружия "
+"или ракетных систем, систем для космических запусков и суборбитальных ракет, "
+"а также беспилотных летательных аппаратов. Запрещается получать программное "
+"обеспечение Fedora или технические сведения, если вы проживаете в одной из "
+"вышеуказанных стран или каким-либо другим образом подпадаете под эти "
+"ограничения. Вы не можете предоставлять программное обеспечение или "
+"технические сведения Fedora лицам или компаниям, расположенным в одной из "
+"вышеупомянутых стран или являющимся объектом вышеуказанных ограничений. Вы "
+"также ответственны за соблюдение законодательства других стран по импорту, "
+"экспорту и использованию программного обеспечения и технических сведений "
+"Fedora."
 
 #: i18n/en.yaml:0
 msgid "Languages"
-msgstr ""
+msgstr "Языки"
 
 #: i18n/en.yaml:0
 msgid ""
 "Design made by [Carl Schwan](https://carlschwan.eu) © 2021 Fedora Project"
 msgstr ""
+"Дизайн был выполнен [Карлом Шван (Carl Schwan)](https://carlschwan.eu) © "
+"2021 Проект Fedora"
 
 #: content/get-involved.md:0
 msgid "Get Involved!"
-msgstr ""
+msgstr "Присоединяйтесь!"
 
 #: content/get-involved.md:7
 msgid ""
@@ -275,12 +341,18 @@ msgid ""
 "and KDE team, you will be part of an international community working to "
 "deliver a stunning Free Software computing experience."
 msgstr ""
+"Fedora Kinoite поддерживается с любовью добровольцами. Присоединившись к "
+"команде Fedora и KDE, вы станете частью международного сообщества, "
+"работающего над созданием превосходной среды свободного программного "
+"обеспечения для компьютеров."
 
 #: content/get-involved.md:10
 msgid ""
 "This page will give you a brief introduction to things everyone in KDE "
 "should know, and help you get started with contributing."
 msgstr ""
+"Эта страница даст вам краткое представление о том, что должен знать каждый "
+"пользователь KDE, и поможет вам начать вносить свой вклад."
 
 #: content/get-involved.md:14
 msgid ""
@@ -289,6 +361,9 @@ msgid ""
 "(SIG)][SIG] and is the fruit of collaboration between the Fedora and KDE "
 "community."
 msgstr ""
+"Kinoite основан на той же технологии, что и Fedora CoreOS и Fedora "
+"Silverblue. Он поддерживается [Fedora KDE Special Interest Group (SIG)][SIG] "
+"и является плодом сотрудничества между сообществом Fedora и KDE."
 
 #: content/get-involved.md:17
 msgid ""
@@ -296,10 +371,13 @@ msgid ""
 "channel][Matrix] or IRC room [#fedora-kde][IRC]. Feel free to ask us any "
 "questions you may have."
 msgstr ""
+"Первый шаг к участию в Kinoite - присоединиться к нам на нашем канале ["
+"Matrix channel][Matrix] или в IRC-комнате [#fedora-kde][IRC]. Не стесняйтесь "
+"задавать нам любые вопросы, которые у вас могут возникнуть."
 
 #: content/get-involved.md:19
 msgid "Get Involved in Fedora"
-msgstr ""
+msgstr "Присоединяйтесь к Fedora"
 
 #: content/get-involved.md:23
 msgid ""
@@ -308,16 +386,23 @@ msgid ""
 "information on how to get involved on the generic [Fedora get involved "
 "page][Join]."
 msgstr ""
+"Сообщество Fedora работает над способами упаковки всех компонентов таким "
+"образом, чтобы оптимизировать работу системы для пользователя. "
+"Дополнительные сведения об участии в проекте можно найти на [общей странице "
+"участия в проекте Fedora][Join]."
 
 #: content/get-involved.md:25
 msgid "Get Involved in KDE"
-msgstr ""
+msgstr "Присоединяйтесь к KDE"
 
 #: content/get-involved.md:28
 msgid ""
 "The KDE community creates the software and they also have a [get involved "
 "page][Involved] with a lot of helpful information on how to help."
 msgstr ""
+"Сообщество KDE создает программное обеспечение, и у них также есть "
+"[страница][Involved] с большим количеством полезной информации о том, как "
+"помочь."
 
 #: content/get-involved.md:34
 msgid ""
@@ -326,7 +411,11 @@ msgid ""
 "irc://irc.libera.chat/fedora-kde [Join]: https://fedoraproject.org/wiki/Join"
 " [Involved]: https://community.kde.org/Get_Involved"
 msgstr ""
+"[SIG]: https://fedoraproject.org/wiki/SIGs/KDE [Matrix]: https://matrix.to/"
+"#/#fedora-kde:matrix.org [IRC]: irc://irc.libera.chat/fedora-kde [Join]: "
+"https://fedoraproject.org/wiki/Join [Involved]: https://community.kde.org/"
+"Get_Involved"
 
 #: content/download/_index.md:0
 msgid "Download Fedora Kinoite"
-msgstr ""
+msgstr "Загрузить Fedora Kinoite"
