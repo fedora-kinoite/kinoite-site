@@ -36,6 +36,11 @@ languages:
     languageCode: fr
     languageName: Français
     weight: 2
+  ru:
+    contentDir: content-trans/ru
+    languageCode: ru
+    languageName: Русский
+    weight: 2
   uk:
     contentDir: content-trans/uk
     languageCode: uk
