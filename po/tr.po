@@ -3,20 +3,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kinoite-fedoraproject-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-02 03:18+0000\n"
+"Last-Translator: Ferhat Gecdogan <ferhatgectao@gmail.com>\n"
+"Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
+"fedora-kde/kinoite-site/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite"
-msgstr ""
+msgstr "Fedora Kinoite"
 
 #: i18n/en.yaml:0
 msgid "The Next Generation Operating System"
-msgstr ""
+msgstr "Yeni Nesil İşletim Sistemi"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -24,30 +28,33 @@ msgid ""
 "video, and get productive at work without having to worry about breaking "
 "your system."
 msgstr ""
+"Web'de gezinin, arkadaşlarınızla iletişimde kalın, dosyalarınızı yönetin, "
+"müzik ve videonun keyfini çıkarın ve sisteminizi bozma konusunda "
+"endişelenmenize gerek kalmadan işinizde üretken olun."
 
 #: i18n/en.yaml:0
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: i18n/en.yaml:0
 msgid "Get Involved"
-msgstr ""
+msgstr "Katılın"
 
 #: i18n/en.yaml:0
 msgid "Documentation"
-msgstr ""
+msgstr "Dokümantasyon"
 
 #: i18n/en.yaml:0
 msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
-msgstr ""
+msgstr "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
-msgstr ""
+msgstr "En iyinin üstüne inşa edildi"
 
 #: i18n/en.yaml:0
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -55,26 +62,30 @@ msgid ""
 "clouds, and containers that enables software developers and community "
 "members to build tailored solutions for their users."
 msgstr ""
+"Fedora, yazılım geliştiricilerin ve topluluk üyelerinin kullanıcıları için "
+"özel çözümler oluşturmasını sağlayan donanım, bulutlar ve kapsayıcılar için "
+"yenilikçi, ücretsiz ve açık kaynaklı bir platform oluşturur."
 
 #: i18n/en.yaml:0
 msgid "Plasma desktop"
-msgstr ""
+msgstr "Plasma masaüstü"
 
 #: i18n/en.yaml:0
 msgid "Modern and modular desktop built with love by the KDE Community"
 msgstr ""
+"KDE Topluluğu tarafından sevgiyle oluşturulmuş modern ve modüler masaüstü"
 
 #: i18n/en.yaml:0
 msgid "Applications as Flatpaks"
-msgstr ""
+msgstr "Flatpak Uygulamaları"
 
 #: i18n/en.yaml:0
 msgid "Download hundreds of open-source applications thanks to Flatpak"
-msgstr ""
+msgstr "Flatpak sayesinde yüzlerce açık kaynaklı uygulamayı indirin"
 
 #: i18n/en.yaml:0
 msgid "rpm-ostree"
-msgstr ""
+msgstr "rpm-ostree"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -82,10 +93,13 @@ msgid ""
 " immutable image format, and accepts installing RPM on both the client and "
 "server side, sharing code with the dnf project."
 msgstr ""
+"rpm-ostree, karma bir görüntü/paket sistemidir. Libostree'yi temel değişmez "
+"görüntü formatı olarak birleştirir ve hem istemci hem de sunucu tarafında "
+"RPM yüklemesini kabul ederek dnf projesiyle kod paylaşır."
 
 #: i18n/en.yaml:0
 msgid "Podman"
-msgstr ""
+msgstr "Podman"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -93,30 +107,38 @@ msgid ""
 "running Open Container Initiative (OCI) containers and container images on "
 "your Linux System."
 msgstr ""
+"Podman, Linux Sisteminizde Open Container Initiative (OCI) kapsayıcıları ve "
+"kapsayıcı görüntüleri geliştirmeye, yönetmeye ve çalıştırmaya yönelik arka "
+"plan uygulaması olmayan bir kapsayıcı motordur."
 
 #: i18n/en.yaml:0
 msgid "Related Projects"
-msgstr ""
+msgstr "İlgili Projeler"
 
 #: i18n/en.yaml:0
 msgid ""
 "Those other projects are based on the same technologies as Fedora Kinoite "
 "(Fedora Linux, rpm-ostree, podman) but are focused on different use cases:"
 msgstr ""
+"Bu gibi diğer projeler, Fedora Kinoite (Fedora Linux, rpm-ostree, podman) "
+"ile aynı teknolojilere dayanıyor ancak farklı kullanım durumlarına "
+"odaklanıyor:"
 
 #: i18n/en.yaml:0
 msgid "Fedora Silverblue"
-msgstr ""
+msgstr "Fedora Silverblue"
 
 #: i18n/en.yaml:0
 msgid ""
 "Fedora Silverblue is an immutable desktop operating system featuring the "
 "GNOME desktop and applications."
 msgstr ""
+"Fedora Silverblue, GNOME masaüstü ve uygulamalarını içeren değişmez bir "
+"masaüstü işletim sistemidir."
 
 #: i18n/en.yaml:0
 msgid "Fedora CoreOS"
-msgstr ""
+msgstr "Fedora CoreOS"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -124,40 +146,47 @@ msgid ""
 "focused operating system, designed for clusters but also operable "
 "standalone, optimized for Kubernetes but also great without it."
 msgstr ""
+"Fedora CoreOS, bilgisayar kümeleri için tasarlanmış, aynı zamanda bağımsız "
+"olarak çalıştırılabilen, Kubernetes için optimize edilmiş, ancak onsuz da "
+"harika olan, otomatik olarak güncellenen, minimal, monolitik, kapsayıcı "
+"odaklı bir işletim sistemidir."
 
 #: i18n/en.yaml:0
 msgid "Fedora IoT"
-msgstr ""
+msgstr "Fedora IoT"
 
 #: i18n/en.yaml:0
 msgid ""
 "Fedora IoT provides a strong foundation for IoT ecosystems: a project at "
 "home, industrial gateways, smart cities or analytics with AI/ML."
 msgstr ""
+"Fedora IoT, NT ekosistemleri için güçlü bir temel sağlar: evdeki projeniz, "
+"endüstriyel ağ geçitleri, akıllı şehirler veya AI/ML ile analitik "
+"hesaplamalar."
 
 #: i18n/en.yaml:0
 msgid "Fedora Kinoite is available for x86_64, AArch64 and POWER8."
-msgstr ""
+msgstr "Fedora Kinoite, x86_64, AArch64 ve POWER8 için kullanılabilir."
 
 #: i18n/en.yaml:0
 msgid "Download for x86_64"
-msgstr ""
+msgstr "x86_64 için indirin"
 
 #: i18n/en.yaml:0
 msgid "Download for AArch64"
-msgstr ""
+msgstr "AArch64 için indirin"
 
 #: i18n/en.yaml:0
 msgid "Download for ppc64le"
-msgstr ""
+msgstr "Ppc64le için indirin"
 
 #: i18n/en.yaml:0
 msgid "Verify your download"
-msgstr ""
+msgstr "İndirmenizi doğrulayın"
 
 #: i18n/en.yaml:0
 msgid "Warning! Pre-release (Beta) version!"
-msgstr ""
+msgstr "Uyarı! Yayınlama öncesi (Beta) sürümüdür!"
 
 #: i18n/en.yaml:0
 msgid ""
@@ -165,24 +194,29 @@ msgid ""
 "been made yet. You may encounter bugs and you are welcomed to report them. "
 "Use at your own risk!"
 msgstr ""
+"Fedora Kinoite'nin bu sürümü hala Beta'da ve henüz kararlı bir sürümüne "
+"sahip değil. Hatalarla karşılaşabilirsiniz ve bunları bildirmenizden "
+"memnuniyet duyarız. Kendi sorumluluğunuzda kullanın!"
 
 #: i18n/en.yaml:0
 msgid "Not sure how to use this file?"
-msgstr ""
+msgstr "Bu dosyayı nasıl kullanacağınızdan emin değil misiniz?"
 
 #: i18n/en.yaml:0
 msgid "Learn here."
-msgstr ""
+msgstr "Burada öğrenin."
 
 #: i18n/en.yaml:0
 msgid ""
 "https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-"
 "installation-image/index.html"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/quick-docs/"
+"creating-and-using-a-live-installation-image/index.html"
 
 #: i18n/en.yaml:0
 msgid "On Windows or macOS? Try Fedora Media Writer."
-msgstr ""
+msgstr "Windows'ta ya da macOS'ta mısınız? Fedora Media Writer'ı deneyin."
 
 #: i18n/en.yaml:0
 msgid ""
@@ -191,48 +225,58 @@ msgid ""
 "Writer. Once Fedora Media Writer is installed, use it to flash your drive "
 "using the file you have downloaded above."
 msgstr ""
+"Fedora Kinoite'yi denemeyi çok kolaylaştıran Fedora Media Writer'ı "
+"kullanmaya başlayın. Tek ihtiyacınız olan bir 4GB flash sürücü ve Fedora "
+"Media Writer. Fedora Media Writer yüklendikten sonra, yukarıda indirdiğiniz "
+"dosyayı kullanarak imajı yazdırmak için kullanın."
 
 #: i18n/en.yaml:0
 msgid "Download for:"
-msgstr ""
+msgstr "Şunun için indirin:"
 
 #: i18n/en.yaml:0
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: i18n/en.yaml:0
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: i18n/en.yaml:0
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: i18n/en.yaml:0
 msgid ""
 "https://docs.fedoraproject.org/en-US/fedora/f35/install-"
 "guide/install/Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
+"https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
+"Preparing_for_Installation/#sect-preparing-boot-media"
 
 #: i18n/en.yaml:0
 msgid "We take security seriously."
-msgstr ""
+msgstr "Güvenliği ciddiye alıyoruz."
 
 #: i18n/en.yaml:0
 msgid ""
 "Once you have downloaded an image, be sure to verify it for both security "
 "and integrity."
 msgstr ""
+"Bir imajı indirdikten sonra, hem güvenlik hem de bütünlük açısından "
+"doğruladığınızdan emin olun."
 
 #: i18n/en.yaml:0
 msgid "Verify your download."
-msgstr ""
+msgstr "İndirmenizi doğrulayın."
 
 #: i18n/en.yaml:0
 msgid ""
 "By clicking on and downloading Fedora, you agree to comply with the "
 "following terms and conditions."
 msgstr ""
+"Fedora'yı indirerek, aşağıdaki hüküm ve koşullara uymayı kabul etmiş "
+"olursunuz."
 
 #: i18n/en.yaml:0
 msgid ""
@@ -258,16 +302,18 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Languages"
-msgstr ""
+msgstr "Diller"
 
 #: i18n/en.yaml:0
 msgid ""
 "Design made by [Carl Schwan](https://carlschwan.eu) © 2021 Fedora Project"
 msgstr ""
+"Tasarım [Carl Schwan] (https://carlschwan.eu) tarafından yapılmıştır © 2021 "
+"Fedora Projesi"
 
 #: content/get-involved.md:0
 msgid "Get Involved!"
-msgstr ""
+msgstr "Katılın!"
 
 #: content/get-involved.md:7
 msgid ""
@@ -275,12 +321,17 @@ msgid ""
 "and KDE team, you will be part of an international community working to "
 "deliver a stunning Free Software computing experience."
 msgstr ""
+"Fedora Kinoite, gönüllüler tarafından sevgiyle sürdürülür. Fedora ve KDE "
+"ekibine katılarak, çarpıcı bir Özgür Yazılım bilgi işlem deneyimi sunmak "
+"için çalışan uluslararası bir topluluğun parçası olacaksınız."
 
 #: content/get-involved.md:10
 msgid ""
 "This page will give you a brief introduction to things everyone in KDE "
 "should know, and help you get started with contributing."
 msgstr ""
+"Bu sayfa size KDE'deki herkesin bilmesi gereken şeylere kısaca bir giriş "
+"yapacak ve katkıda bulunmaya başlamanıza yardımcı olacaktır."
 
 #: content/get-involved.md:14
 msgid ""
@@ -289,6 +340,9 @@ msgid ""
 "(SIG)][SIG] and is the fruit of collaboration between the Fedora and KDE "
 "community."
 msgstr ""
+"Kinoite, Fedora CoreOS ve Fedora Silverblue ile aynı teknolojiye "
+"dayanmaktadır. [Fedora KDE Özel İlgi Grubu (SIG)][SIG] tarafından sürdürülür "
+"ve Fedora ile KDE topluluğu arasındaki işbirliğinin meyvesidir."
 
 #: content/get-involved.md:17
 msgid ""
@@ -296,10 +350,13 @@ msgid ""
 "channel][Matrix] or IRC room [#fedora-kde][IRC]. Feel free to ask us any "
 "questions you may have."
 msgstr ""
+"Kinoite'e katkıda bulunmanın ilk adımı [Matrix kanalımıza][Matrix] veya IRC "
+"odamıza [#fedora-kde][IRC] katılmaktır. Aklınıza takılan soruları bize "
+"sormaktan çekinmeyin."
 
 #: content/get-involved.md:19
 msgid "Get Involved in Fedora"
-msgstr ""
+msgstr "Fedora'ya Katılın"
 
 #: content/get-involved.md:23
 msgid ""
@@ -308,16 +365,22 @@ msgid ""
 "information on how to get involved on the generic [Fedora get involved "
 "page][Join]."
 msgstr ""
+"Fedora topluluğu, kullanıcıya en iyi deneyimi sunmak için tüm bileşenleri "
+"bir araya getirme yolunda çalışıyor. Genel [Fedora katılım "
+"sayfasından][Katıl]'da nasıl katılacağınızla ilgili daha fazla bilgi "
+"bulabilirsiniz."
 
 #: content/get-involved.md:25
 msgid "Get Involved in KDE"
-msgstr ""
+msgstr "KDE'ye Katılın"
 
 #: content/get-involved.md:28
 msgid ""
 "The KDE community creates the software and they also have a [get involved "
 "page][Involved] with a lot of helpful information on how to help."
 msgstr ""
+"KDE topluluğu yazılımı oluşturur ve ayrıca nasıl yardım edileceğine dair "
+"birçok yararlı bilgi içeren bir [katılım sayfasına][Involved] sahiptir."
 
 #: content/get-involved.md:34
 msgid ""
@@ -326,7 +389,11 @@ msgid ""
 "irc://irc.libera.chat/fedora-kde [Join]: https://fedoraproject.org/wiki/Join"
 " [Involved]: https://community.kde.org/Get_Involved"
 msgstr ""
+"[SIG]: https://fedoraproject.org/wiki/SIGs/KDE [Matrix]: https://matrix.to/"
+"#/#fedora-kde:matrix.org [IRC]: irc://irc.libera.chat/fedora-kde [Bize "
+"Katılın]: https://fedoraproject.org/wiki/Join [Katılın]: https://community."
+"kde.org/Get_Involved"
 
 #: content/download/_index.md:0
 msgid "Download Fedora Kinoite"
-msgstr ""
+msgstr "Fedora Kinoite'i indirin"
