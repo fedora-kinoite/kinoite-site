@@ -41,6 +41,11 @@ languages:
     languageCode: ru
     languageName: Русский
     weight: 2
+  tr:
+    contentDir: content-trans/tr
+    languageCode: tr
+    languageName: Türkçe
+    weight: 2
   uk:
     contentDir: content-trans/uk
     languageCode: uk
