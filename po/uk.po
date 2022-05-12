@@ -250,8 +250,12 @@ msgid "Linux"
 msgstr "Linux"
 
 #: i18n/en.yaml:0
+#, fuzzy
+#| msgid ""
+#| "https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
+#| "Preparing_for_Installation/#sect-preparing-boot-media"
 msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
+"https://docs.fedoraproject.org/en-US/fedora/latest/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 "https://docs.fedoraproject.org/uk/fedora/f35/install-guide/install/"

@@ -7,8 +7,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "PO-Revision-Date: 2022-01-14 07:16+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/"
-"fedora-kde/kinoite-site/fr/>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/fedora-"
+"kde/kinoite-site/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,6 +45,10 @@ msgstr "S’impliquer"
 #: i18n/en.yaml:0
 msgid "Documentation"
 msgstr "Documentation"
+
+#: i18n/en.yaml:0
+msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
+msgstr "https://docs.fedoraproject.org/fr/fedora-kinoite/"
 
 #: i18n/en.yaml:0
 msgid "Built on top of the best"
@@ -247,8 +251,12 @@ msgid "Linux"
 msgstr "Linux"
 
 #: i18n/en.yaml:0
+#, fuzzy
+#| msgid ""
+#| "https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+#| "Preparing_for_Installation/#sect-preparing-boot-media"
 msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f34/install-guide/install/"
+"https://docs.fedoraproject.org/en-US/fedora/latest/install-guide/install/"
 "Preparing_for_Installation/#sect-preparing-boot-media"
 msgstr ""
 "https://docs.fedoraproject.org/fr/fedora/f34/install-guide/install/"
@@ -419,14 +427,9 @@ msgstr ""
 msgid "Download Fedora Kinoite"
 msgstr "Télécharger Fedora Kinoite"
 
-#: i18n/en.yaml:0
-msgid "https://docs.fedoraproject.org/en-US/fedora-kinoite/"
-msgstr "https://docs.fedoraproject.org/fr/fedora-kinoite/"
-
-#: i18n/en.yaml:0
-msgid ""
-"https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media"
-msgstr ""
-"https://docs.fedoraproject.org/fr/fedora/f35/install-guide/install/"
-"Preparing_for_Installation/#sect-preparing-boot-media"
+#~ msgid ""
+#~ "https://docs.fedoraproject.org/en-US/fedora/f35/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media"
+#~ msgstr ""
+#~ "https://docs.fedoraproject.org/fr/fedora/f35/install-guide/install/"
+#~ "Preparing_for_Installation/#sect-preparing-boot-media"
